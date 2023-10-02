@@ -1,0 +1,118 @@
+{
+  "name": "ty-interact-protection-ui-app",
+  "version": "1.0.0",
+  "description": "Protection Business Enterprise UI Application",
+  "main": "index.jsx",
+  "author": "Protection (Tenerity)",
+  "license": "UNLICENSED",
+  "private": true,
+  "homepage": "https://bitbucket.org/trilegiant-production/ty-interact-protection-ui#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/trilegiant-production/ty-interact-protection-ui.git"
+  },
+  "workspaces": [
+    "common-ui-app",
+    "container-ui-app",
+    "protection-ui-app",
+    "protection-auth-ui-app",
+    "protection-identity-protection-ui-app",
+    "protection-credit-center-ui-app"
+  ],
+  "scripts": {
+    "start": "run-p start:app",
+    "start:app": "node ./devtool-config/appScripts/appStart.js",
+    "start:tenerity-ui-toolkit": "cd tenerity-ui-toolkit && npm run start",
+    "build:tenerity-ui-toolkit": "cd tenerity-ui-toolkit && npm run build",
+    "build": "concurrently \"wsrun --parallel cross-env NODE_ENV=production npm-run-all clean prod\"",
+    "build:prod:local": "concurrently \"wsrun --parallel cross-env NODE_ENV=production npm-run-all clean prod\"",
+    "clean_nm:cache": "npm cache clean --force && rimraf node_modules",
+    "clean_nm": "npm-run-all clean_nm:*",
+    "clean": "concurrently \"wsrun --parallel npm-run-all clean\"",
+    "commit": "git-cz",
+    "decommission": "node ./devtool-config/appScripts/decommissionStart.js",
+    "format:scripts": "npm run lint:scripts -- --fix",
+    "format": "npm-run-all -p format:*",
+    "husky:prepare": "husky install",
+    "lint:scripts": "eslint \"**/src/app/**/*.js\" \"**/src/app/**/*.jsx\" \"**/devtool-config/**/*.js\" \"appScripts/**/*.js\"",
+    "lint": "npm-run-all -p lint:*",
+    "onboard": "node ./devtool-config/appScripts/onBoardingStart.js",
+    "packages:install": "npm run packages-install:tenerity-ui-toolkit && npm i",
+    "packages-install:tenerity-ui-toolkit": "cd tenerity-ui-toolkit && npm i && cd ..",
+    "post-install-cmd": "npm run husky:prepare",
+    "postinstall": "npm run husky:prepare",
+    "pre-commit:bypass": "echo \"By Pass Pre Commit Hook\"",
+    "_pre-commit:verify": "npm run lint",
+    "_pre-commit:test": "npm run test:all:client",
+    "_pre-commit:build": "npm run build",
+    "pre-commit": "run-s pre-commit:*",
+    "pre-push:bypass": "echo \"By Pass Pre Push Hook\"",
+    "_pre-push:verify": "npm run lint",
+    "_pre-push:test": "npm run test:all:client",
+    "_pre-push:build": "npm run build",
+    "pre-push": "run-s pre-push:*",
+    "prod": "webpack",
+    "e2e": "node ./devtool-config/appScripts/appE2E.js",
+    "e2e:Customized": "node ./devtool-config/appScripts/e2eCustomized.js",
+    "serve:build": "serve ./build -l 9090",
+    "test": "concurrently \"wsrun --parallel cross-env NODE_ENV=production npm-run-all test\"",
+    "test:init": "jest --config devtool-config/jest/config.js --runInBand --detectOpenHandles --no-cache",
+    "test:all:client": "run-s test:client:*",
+    "test:client:demo": "cross-env CLIENT_NAME=demo npm-run-all test",
+    "test_app:container": "npm run test --workspace \"container-ui-app\" -- --u",
+    "test_app:common": "npm run test --workspace \"common-ui-app\" -- --u",
+    "test_app:protection": "npm run test --workspace \"protection-ui-app\" -- --u",
+    "test_app:auth": "npm run test --workspace \"protection-auth-ui-app\" -- --u",
+    "test_app:credit-center": "npm run test --workspace \"protection-credit-center-ui-app\" -- --u",
+    "test_app:id-pro": "npm run test --workspace \"protection-identity-protection-ui-app\" -- --u",
+    "demo": "echo \"Error: no demo specified\" && exit 1"
+  },
+  "dependencies": {
+    "jest-html-reporters": "^3.1.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "concurrently": "^8.2.0",
+    "cross-env": "^7.0.3",
+    "env-cmd": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.28.0",
+    "eslint-plugin-jest": "^26.9.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.33.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "ghooks": "^2.0.4",
+    "husky": "^7.0.4",
+    "memorystream": "^0.3.1",
+    "npm-run-all": "^4.1.5",
+    "prompts": "^2.4.2",
+    "rimraf": "^3.0.2",
+    "serve": "^14.2.0",
+    "wsrun": "^5.2.4"
+  },
+  "engines": {
+    "node": ">=16.7.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "ie 11",
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

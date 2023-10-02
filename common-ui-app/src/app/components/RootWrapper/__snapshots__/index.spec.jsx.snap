@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- RootWrapper - Shallow Component Snapshot - RootWrapper with Snapshot 1`] = `
+<div
+  className="css-1srt2ny"
+>
+  <div
+    className="css-2hmrg8"
+  >
+    <center>
+      <img
+        className="css-1o66d4b"
+        src="undefined/resources/images/gifs/loading.gif"
+      />
+    </center>
+  </div>
+</div>
+`;

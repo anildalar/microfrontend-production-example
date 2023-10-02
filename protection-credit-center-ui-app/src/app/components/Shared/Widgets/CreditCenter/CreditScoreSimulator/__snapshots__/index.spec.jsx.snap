@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- CreditScoreUpdateInfo Component - Renders Component - Component to be defined test 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-3r4f5f-MuiGrid-root"
+  data-testid="credit-score-message"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-9 css-1qpzhgb-MuiGrid-root"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+    >
+      creditCenterWidget.credit_score_simulator_text
+    </p>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+  >
+    <button
+      aria-label="creditCenterWidget.credit_score_simulator_action"
+      className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+      data-testid="credit-score-simulator"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onContextMenu={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      creditCenterWidget.credit_score_simulator_action
+    </button>
+  </div>
+</div>
+`;

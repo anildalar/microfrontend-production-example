@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Maintenance Component Component with Theme 1`] = `
+<div
+  className="css-1k5zr70"
+  data-testid="application-in-process-page-content"
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+    }
+  }
+>
+  <div
+    className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+    data-testid="application-in-process-page-container"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-uxdw8b-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 css-18f4xyr-MuiGrid-root"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-vsbhin-MuiTypography-root"
+        data-testid="application-in-process-page-heading"
+      >
+        Sooo Sorryyy
+      </p>
+      <h1
+        className="MuiTypography-root MuiTypography-h1 css-3ch4fe-MuiTypography-root"
+        data-testid="application-in-process-page-message"
+      >
+        This Page is under Development.
+      </h1>
+      <h4
+        className="MuiTypography-root MuiTypography-h4 css-wcqt51-MuiTypography-root"
+        data-testid="application-in-process-page-information"
+      >
+        Sorry for the inconvenience, we are working on it!
+      </h4>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Card Component - Mounting - snapshot Desktop View 1`] = `
+<div
+  className="MuiBox-root css-styygr"
+  data-testid="test-card"
+>
+  <div
+    className="MuiStack-root css-1d9cypr-MuiStack-root"
+  >
+    <h2
+      className="MuiTypography-root MuiTypography-h2 css-1sra7t5-MuiTypography-root"
+      data-testid="test-card-title"
+    >
+      heading
+    </h2>
+  </div>
+  <span
+    className="MuiTypography-root MuiTypography-subtitle_regular_sm css-37jdci-MuiTypography-root"
+    data-testid="test-card-content"
+  >
+    body
+  </span>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+    data-testid="test-card-action"
+    disabled={false}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    action_items.see_more &gt;
+    <span
+      className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`- Card Component - Renders Component - Component to be defined test 1`] = `
+<div
+  className="MuiBox-root css-styygr"
+  data-testid="test-card"
+>
+  <div
+    className="MuiStack-root css-1d9cypr-MuiStack-root"
+  >
+    <h2
+      className="MuiTypography-root MuiTypography-h2 css-1sra7t5-MuiTypography-root"
+      data-testid="test-card-title"
+    >
+      heading
+    </h2>
+  </div>
+  <span
+    className="MuiTypography-root MuiTypography-subtitle_regular_sm css-37jdci-MuiTypography-root"
+    data-testid="test-card-content"
+  >
+    body
+  </span>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+    data-testid="test-card-action"
+    disabled={false}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    action_items.see_more &gt;
+    <span
+      className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

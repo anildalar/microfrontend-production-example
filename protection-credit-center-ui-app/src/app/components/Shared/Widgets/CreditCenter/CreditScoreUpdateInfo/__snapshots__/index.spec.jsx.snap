@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- CreditScoreUpdateInfo Component - Renders Component - Component to be defined test 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-4 css-13i4rnv-MuiGrid-root"
+>
+  <div
+    className="MuiBox-root css-0"
+  />
+  <div
+    className="MuiBox-root css-0"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+    >
+      creditCenterWidget.updated_on
+    </p>
+  </div>
+  <div
+    className="MuiBox-root css-0"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+    >
+      creditCenterWidget.next_updated_on
+    </p>
+  </div>
+  <div
+    className="MuiBox-root css-1t5x1vf"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+    />
+  </div>
+  <button
+    aria-label="view_report_n_score"
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-ggtjj2-MuiButtonBase-root-MuiButton-root"
+    data-testid="credit-score-report"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    creditCenterWidget.view_report_n_score
+  </button>
+  <div
+    className="MuiBox-root css-xaph22"
+  >
+    <div
+      className="MuiBox-root css-0"
+    >
+      <p
+        className="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+      >
+        creditCenterWidget.credit_monitoring_status
+      </p>
+    </div>
+  </div>
+</div>
+`;

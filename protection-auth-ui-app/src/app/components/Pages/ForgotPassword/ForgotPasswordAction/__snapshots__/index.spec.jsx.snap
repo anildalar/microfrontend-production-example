@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Renders Component - Component to be defined test 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-887cpn-MuiPaper-root"
+  data-testid="forgot-password-small-section-container"
+>
+  <h1
+    className="MuiTypography-root MuiTypography-h1 css-r3aljr-MuiTypography-root"
+    data-testid="forgotPassword-action-heading"
+  >
+    forgotPassword.heading
+  </h1>
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-3a93rm-MuiTypography-root"
+    data-testid="forgotPassword-action-subHeading"
+  >
+    forgotPassword.subHeading
+  </p>
+  <form
+    data-testid="ForgotPasswordActionForm"
+    onSubmit={[Function]}
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container css-1e2bu2o-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-lct6fq-MuiGrid-root"
+      >
+        <button
+          align="center"
+          aria-label="action_items.submit_label"
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+          data-testid="forgotPassword-submit-action"
+          disabled={true}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={-1}
+          type="submit"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-buttonL css-37jdci-MuiTypography-root"
+          >
+            action_items.forgotPassword_submit_label
+          </span>
+        </button>
+      </div>
+      <div
+        className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-btiia8-MuiGrid-root"
+      >
+        <button
+          align="center"
+          aria-label="action_items.back_label"
+          className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-pe5slp-MuiButtonBase-root-MuiButton-root"
+          data-testid="forgotPassword-back-action"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+          />
+          action_items.back_label
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+`;

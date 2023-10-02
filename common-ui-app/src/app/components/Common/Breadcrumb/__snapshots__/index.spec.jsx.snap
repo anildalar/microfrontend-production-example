@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Breadcrumb Component - Mounting - snapshot test Desktop View 1`] = `null`;
+
+exports[`- Breadcrumb Component - Mounting - snapshot test Mobile View 1`] = `
+<nav
+  className="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+>
+  <ol
+    className="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <div />
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`- Breadcrumb Component - Mounting - snapshot test Tablet View 1`] = `
+<nav
+  className="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-63vwl1-MuiTypography-root-MuiBreadcrumbs-root"
+>
+  <ol
+    className="MuiBreadcrumbs-ol css-4pdmu4-MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <div />
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`- Breadcrumb Component - Renders Component - Component to be defined test 1`] = `null`;

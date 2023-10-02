@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Main - Shallow Component Snapshot - Default Loading Main 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <Main>
+    <RootWrapper
+      reducers={Object {}}
+      sagas={
+        Array [
+          Object {
+            "authSagas": Object {},
+          },
+          Object {
+            "mainSagas": Object {},
+          },
+          Object {
+            "identityProtectionSagas": Object {},
+          },
+          Object {
+            "creditCenterSagas": Object {},
+          },
+        ]
+      }
+    >
+      <Provider
+        store={
+          Object {
+            "@@observable": [Function],
+            "dispatch": [Function],
+            "getState": [Function],
+            "replaceReducer": [Function],
+            "subscribe": [Function],
+          }
+        }
+      >
+        <Root />
+      </Provider>
+    </RootWrapper>
+  </Main>
+</Provider>
+`;

@@ -1,0 +1,3047 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Snackbar Component - Shallow Renders Desktop View - Component to be defined with message 1`] = `
+<div
+  className="MuiSnackbar-root MuiSnackbar-anchorOriginTopCenter css-z38s29-MuiSnackbar-root"
+  data-testid="snack-bar-test"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  role="presentation"
+>
+  <ForwardRef(Grow)
+    appear={true}
+    direction="down"
+    in={true}
+    onEnter={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 225,
+        "exit": 195,
+      }
+    }
+  >
+    <Transition
+      addEndListener={[Function]}
+      appear={true}
+      direction="down"
+      enter={true}
+      exit={true}
+      in={true}
+      mountOnEnter={false}
+      nodeRef={
+        Object {
+          "current": <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1vktxec-MuiPaper-root-MuiAlert-root"
+            data-testid="alert-message-item"
+            direction="down"
+            role="alert"
+            style="opacity: 1; transform: scale(1, 1); transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+          >
+            <div
+              class="MuiAlert-icon css-1ytlwq5-MuiAlert-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                data-testid="SuccessOutlinedIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+                />
+              </svg>
+            </div>
+            <div
+              class="MuiAlert-message css-1pxa9xg-MuiAlert-message"
+            >
+              Test Message for Snackbar
+            </div>
+          </div>,
+        }
+      }
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 225,
+          "exit": 195,
+        }
+      }
+      unmountOnExit={false}
+    >
+      <Alerts
+        direction="down"
+        display={true}
+        errorCode={null}
+        message="Test Message for Snackbar"
+        severity="success"
+        style={
+          Object {
+            "opacity": 1,
+            "transform": "scale(1, 1)",
+            "visibility": undefined,
+          }
+        }
+      >
+        <ForwardRef(Alert)
+          data-testid="alert-message-item"
+          direction="down"
+          severity="success"
+          style={
+            Object {
+              "opacity": 1,
+              "transform": "scale(1, 1)",
+              "visibility": undefined,
+            }
+          }
+          sx={
+            Object {
+              "mb": "42px",
+              "textAlign": "left",
+            }
+          }
+        >
+          <MuiAlertRoot
+            className="MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard"
+            data-testid="alert-message-item"
+            direction="down"
+            elevation={0}
+            ownerState={
+              Object {
+                "children": "Test Message for Snackbar",
+                "color": undefined,
+                "data-testid": "alert-message-item",
+                "direction": "down",
+                "severity": "success",
+                "style": Object {
+                  "opacity": 1,
+                  "transform": "scale(1, 1)",
+                  "visibility": undefined,
+                },
+                "sx": Object {
+                  "mb": "42px",
+                  "textAlign": "left",
+                },
+                "variant": "standard",
+              }
+            }
+            role="alert"
+            style={
+              Object {
+                "opacity": 1,
+                "transform": "scale(1, 1)",
+                "visibility": undefined,
+              }
+            }
+            sx={
+              Object {
+                "mb": "42px",
+                "textAlign": "left",
+              }
+            }
+          >
+            <Insertion
+              cache={
+                Object {
+                  "insert": [Function],
+                  "inserted": Object {
+                    "1a2z11u-MuiAlert-root": true,
+                    "1pxa9xg-MuiAlert-message": true,
+                    "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                    "1vooibu-MuiSvgIcon-root": true,
+                    "1ytlwq5-MuiAlert-icon": true,
+                    "z38s29-MuiSnackbar-root": true,
+                  },
+                  "key": "css",
+                  "nonce": undefined,
+                  "registered": Object {
+                    "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                  },
+                  "sheet": StyleSheet {
+                    "_alreadyInsertedOrderInsensitiveRule": true,
+                    "_insertTag": [Function],
+                    "before": null,
+                    "container": <head>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                      </style>
+                    </head>,
+                    "ctr": 11,
+                    "insertionPoint": undefined,
+                    "isSpeedy": false,
+                    "key": "css",
+                    "nonce": undefined,
+                    "prepend": undefined,
+                    "tags": Array [
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                      </style>,
+                    ],
+                  },
+                }
+              }
+              isStringTag={false}
+              serialized={
+                Object {
+                  "map": undefined,
+                  "name": "1a2z11u-MuiAlert-root",
+                  "next": undefined,
+                  "styles": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                  "toString": [Function],
+                }
+              }
+            />
+            <ForwardRef(Paper)
+              className="MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1a2z11u-MuiAlert-root"
+              data-testid="alert-message-item"
+              direction="down"
+              elevation={0}
+              role="alert"
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": "scale(1, 1)",
+                  "visibility": undefined,
+                }
+              }
+            >
+              <MuiPaperRoot
+                as="div"
+                className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1a2z11u-MuiAlert-root"
+                data-testid="alert-message-item"
+                direction="down"
+                ownerState={
+                  Object {
+                    "children": Array [
+                      <MuiAlertIcon
+                        className="MuiAlert-icon"
+                        ownerState={
+                          Object {
+                            "children": "Test Message for Snackbar",
+                            "color": undefined,
+                            "data-testid": "alert-message-item",
+                            "direction": "down",
+                            "severity": "success",
+                            "style": Object {
+                              "opacity": 1,
+                              "transform": "scale(1, 1)",
+                              "visibility": undefined,
+                            },
+                            "sx": Object {
+                              "mb": "42px",
+                              "textAlign": "left",
+                            },
+                            "variant": "standard",
+                          }
+                        }
+                      >
+                        <Memo
+                          fontSize="inherit"
+                        />
+                      </MuiAlertIcon>,
+                      <MuiAlertMessage
+                        className="MuiAlert-message"
+                        ownerState={
+                          Object {
+                            "children": "Test Message for Snackbar",
+                            "color": undefined,
+                            "data-testid": "alert-message-item",
+                            "direction": "down",
+                            "severity": "success",
+                            "style": Object {
+                              "opacity": 1,
+                              "transform": "scale(1, 1)",
+                              "visibility": undefined,
+                            },
+                            "sx": Object {
+                              "mb": "42px",
+                              "textAlign": "left",
+                            },
+                            "variant": "standard",
+                          }
+                        }
+                      >
+                        Test Message for Snackbar
+                      </MuiAlertMessage>,
+                      null,
+                      null,
+                    ],
+                    "className": "MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1a2z11u-MuiAlert-root",
+                    "component": "div",
+                    "data-testid": "alert-message-item",
+                    "direction": "down",
+                    "elevation": 0,
+                    "role": "alert",
+                    "square": false,
+                    "style": Object {
+                      "opacity": 1,
+                      "transform": "scale(1, 1)",
+                      "visibility": undefined,
+                    },
+                    "variant": "elevation",
+                  }
+                }
+                role="alert"
+                style={
+                  Object {
+                    "opacity": 1,
+                    "transform": "scale(1, 1)",
+                    "visibility": undefined,
+                  }
+                }
+              >
+                <Insertion
+                  cache={
+                    Object {
+                      "insert": [Function],
+                      "inserted": Object {
+                        "1a2z11u-MuiAlert-root": true,
+                        "1pxa9xg-MuiAlert-message": true,
+                        "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                        "1vooibu-MuiSvgIcon-root": true,
+                        "1ytlwq5-MuiAlert-icon": true,
+                        "z38s29-MuiSnackbar-root": true,
+                      },
+                      "key": "css",
+                      "nonce": undefined,
+                      "registered": Object {
+                        "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                      },
+                      "sheet": StyleSheet {
+                        "_alreadyInsertedOrderInsensitiveRule": true,
+                        "_insertTag": [Function],
+                        "before": null,
+                        "container": <head>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                          </style>
+                        </head>,
+                        "ctr": 11,
+                        "insertionPoint": undefined,
+                        "isSpeedy": false,
+                        "key": "css",
+                        "nonce": undefined,
+                        "prepend": undefined,
+                        "tags": Array [
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                          </style>,
+                        ],
+                      },
+                    }
+                  }
+                  isStringTag={true}
+                  serialized={
+                    Object {
+                      "map": undefined,
+                      "name": "1vktxec-MuiPaper-root-MuiAlert-root",
+                      "next": undefined,
+                      "styles": "label:MuiPaper-root;background-color:#fff;color:#1e1e1e;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;;",
+                      "toString": [Function],
+                    }
+                  }
+                />
+                <div
+                  className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1vktxec-MuiPaper-root-MuiAlert-root"
+                  data-testid="alert-message-item"
+                  direction="down"
+                  role="alert"
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transform": "scale(1, 1)",
+                      "visibility": undefined,
+                    }
+                  }
+                >
+                  <MuiAlertIcon
+                    className="MuiAlert-icon"
+                    ownerState={
+                      Object {
+                        "children": "Test Message for Snackbar",
+                        "color": undefined,
+                        "data-testid": "alert-message-item",
+                        "direction": "down",
+                        "severity": "success",
+                        "style": Object {
+                          "opacity": 1,
+                          "transform": "scale(1, 1)",
+                          "visibility": undefined,
+                        },
+                        "sx": Object {
+                          "mb": "42px",
+                          "textAlign": "left",
+                        },
+                        "variant": "standard",
+                      }
+                    }
+                  >
+                    <Insertion
+                      cache={
+                        Object {
+                          "insert": [Function],
+                          "inserted": Object {
+                            "1a2z11u-MuiAlert-root": true,
+                            "1pxa9xg-MuiAlert-message": true,
+                            "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                            "1vooibu-MuiSvgIcon-root": true,
+                            "1ytlwq5-MuiAlert-icon": true,
+                            "z38s29-MuiSnackbar-root": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": Object {
+                            "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                          },
+                          "sheet": StyleSheet {
+                            "_alreadyInsertedOrderInsensitiveRule": true,
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": <head>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                              </style>
+                            </head>,
+                            "ctr": 11,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": Array [
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                              </style>,
+                            ],
+                          },
+                        }
+                      }
+                      isStringTag={true}
+                      serialized={
+                        Object {
+                          "map": undefined,
+                          "name": "1ytlwq5-MuiAlert-icon",
+                          "next": undefined,
+                          "styles": "label:MuiAlert-icon;margin-right:12px;padding:7px 0;display:flex;font-size:22px;opacity:0.9;",
+                          "toString": [Function],
+                        }
+                      }
+                    />
+                    <div
+                      className="MuiAlert-icon css-1ytlwq5-MuiAlert-icon"
+                    >
+                      <ForwardRef(SuccessOutlinedIcon)
+                        fontSize="inherit"
+                      >
+                        <ForwardRef(SvgIcon)
+                          data-testid="SuccessOutlinedIcon"
+                          fontSize="inherit"
+                        >
+                          <MuiSvgIconRoot
+                            aria-hidden={true}
+                            as="svg"
+                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                            data-testid="SuccessOutlinedIcon"
+                            focusable="false"
+                            ownerState={
+                              Object {
+                                "children": <path
+                                  d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+                                />,
+                                "color": "inherit",
+                                "component": "svg",
+                                "data-testid": "SuccessOutlinedIcon",
+                                "fontSize": "inherit",
+                                "inheritViewBox": false,
+                                "instanceFontSize": "inherit",
+                                "viewBox": "0 0 24 24",
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <Insertion
+                              cache={
+                                Object {
+                                  "insert": [Function],
+                                  "inserted": Object {
+                                    "1a2z11u-MuiAlert-root": true,
+                                    "1pxa9xg-MuiAlert-message": true,
+                                    "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                                    "1vooibu-MuiSvgIcon-root": true,
+                                    "1ytlwq5-MuiAlert-icon": true,
+                                    "z38s29-MuiSnackbar-root": true,
+                                  },
+                                  "key": "css",
+                                  "nonce": undefined,
+                                  "registered": Object {
+                                    "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                                  },
+                                  "sheet": StyleSheet {
+                                    "_alreadyInsertedOrderInsensitiveRule": true,
+                                    "_insertTag": [Function],
+                                    "before": null,
+                                    "container": <head>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                                      </style>
+                                    </head>,
+                                    "ctr": 11,
+                                    "insertionPoint": undefined,
+                                    "isSpeedy": false,
+                                    "key": "css",
+                                    "nonce": undefined,
+                                    "prepend": undefined,
+                                    "tags": Array [
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                                      </style>,
+                                    ],
+                                  },
+                                }
+                              }
+                              isStringTag={true}
+                              serialized={
+                                Object {
+                                  "map": undefined,
+                                  "name": "1vooibu-MuiSvgIcon-root",
+                                  "next": undefined,
+                                  "styles": "label:MuiSvgIcon-root;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;flex-shrink:0;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;",
+                                  "toString": [Function],
+                                }
+                              }
+                            />
+                            <svg
+                              aria-hidden={true}
+                              className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                              data-testid="SuccessOutlinedIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+                              />
+                            </svg>
+                          </MuiSvgIconRoot>
+                        </ForwardRef(SvgIcon)>
+                      </ForwardRef(SuccessOutlinedIcon)>
+                    </div>
+                  </MuiAlertIcon>
+                  <MuiAlertMessage
+                    className="MuiAlert-message"
+                    ownerState={
+                      Object {
+                        "children": "Test Message for Snackbar",
+                        "color": undefined,
+                        "data-testid": "alert-message-item",
+                        "direction": "down",
+                        "severity": "success",
+                        "style": Object {
+                          "opacity": 1,
+                          "transform": "scale(1, 1)",
+                          "visibility": undefined,
+                        },
+                        "sx": Object {
+                          "mb": "42px",
+                          "textAlign": "left",
+                        },
+                        "variant": "standard",
+                      }
+                    }
+                  >
+                    <Insertion
+                      cache={
+                        Object {
+                          "insert": [Function],
+                          "inserted": Object {
+                            "1a2z11u-MuiAlert-root": true,
+                            "1pxa9xg-MuiAlert-message": true,
+                            "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                            "1vooibu-MuiSvgIcon-root": true,
+                            "1ytlwq5-MuiAlert-icon": true,
+                            "z38s29-MuiSnackbar-root": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": Object {
+                            "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                          },
+                          "sheet": StyleSheet {
+                            "_alreadyInsertedOrderInsensitiveRule": true,
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": <head>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                              </style>
+                            </head>,
+                            "ctr": 11,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": Array [
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                              </style>,
+                            ],
+                          },
+                        }
+                      }
+                      isStringTag={true}
+                      serialized={
+                        Object {
+                          "map": undefined,
+                          "name": "1pxa9xg-MuiAlert-message",
+                          "next": undefined,
+                          "styles": "label:MuiAlert-message;padding:8px 0;min-width:0;overflow:auto;",
+                          "toString": [Function],
+                        }
+                      }
+                    />
+                    <div
+                      className="MuiAlert-message css-1pxa9xg-MuiAlert-message"
+                    >
+                      Test Message for Snackbar
+                    </div>
+                  </MuiAlertMessage>
+                </div>
+              </MuiPaperRoot>
+            </ForwardRef(Paper)>
+          </MuiAlertRoot>
+        </ForwardRef(Alert)>
+      </Alerts>
+    </Transition>
+  </ForwardRef(Grow)>
+</div>
+`;
+
+exports[`- Snackbar Component - Shallow Renders Mobile View - Component to be defined with Success message code 1`] = `
+<div
+  className="MuiSnackbar-root MuiSnackbar-anchorOriginTopCenter css-u1432x-MuiSnackbar-root"
+  data-testid="snack-bar-test"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  onTouchEnd={[Function]}
+  role="presentation"
+>
+  <ForwardRef(Grow)
+    appear={true}
+    direction="down"
+    in={true}
+    onEnter={[Function]}
+    onExited={[Function]}
+    timeout={
+      Object {
+        "enter": 225,
+        "exit": 195,
+      }
+    }
+  >
+    <Transition
+      addEndListener={[Function]}
+      appear={true}
+      direction="down"
+      enter={true}
+      exit={true}
+      in={true}
+      mountOnEnter={false}
+      nodeRef={
+        Object {
+          "current": <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1vktxec-MuiPaper-root-MuiAlert-root"
+            data-testid="alert-message-item"
+            direction="down"
+            role="alert"
+            style="opacity: 1; transform: scale(1, 1); transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+          >
+            <div
+              class="MuiAlert-icon css-1ytlwq5-MuiAlert-icon"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                data-testid="SuccessOutlinedIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+                />
+              </svg>
+            </div>
+            <div
+              class="MuiAlert-message css-1pxa9xg-MuiAlert-message"
+            >
+              Test Message for Snackbar
+            </div>
+          </div>,
+        }
+      }
+      onEnter={[Function]}
+      onEntered={[Function]}
+      onEntering={[Function]}
+      onExit={[Function]}
+      onExited={[Function]}
+      onExiting={[Function]}
+      timeout={
+        Object {
+          "enter": 225,
+          "exit": 195,
+        }
+      }
+      unmountOnExit={false}
+    >
+      <Alerts
+        direction="down"
+        display={true}
+        errorCode={null}
+        message="Test Message for Snackbar"
+        severity="success"
+        style={
+          Object {
+            "opacity": 1,
+            "transform": "scale(1, 1)",
+            "visibility": undefined,
+          }
+        }
+      >
+        <ForwardRef(Alert)
+          data-testid="alert-message-item"
+          direction="down"
+          severity="success"
+          style={
+            Object {
+              "opacity": 1,
+              "transform": "scale(1, 1)",
+              "visibility": undefined,
+            }
+          }
+          sx={
+            Object {
+              "mb": "42px",
+              "textAlign": "left",
+            }
+          }
+        >
+          <MuiAlertRoot
+            className="MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard"
+            data-testid="alert-message-item"
+            direction="down"
+            elevation={0}
+            ownerState={
+              Object {
+                "children": "Test Message for Snackbar",
+                "color": undefined,
+                "data-testid": "alert-message-item",
+                "direction": "down",
+                "severity": "success",
+                "style": Object {
+                  "opacity": 1,
+                  "transform": "scale(1, 1)",
+                  "visibility": undefined,
+                },
+                "sx": Object {
+                  "mb": "42px",
+                  "textAlign": "left",
+                },
+                "variant": "standard",
+              }
+            }
+            role="alert"
+            style={
+              Object {
+                "opacity": 1,
+                "transform": "scale(1, 1)",
+                "visibility": undefined,
+              }
+            }
+            sx={
+              Object {
+                "mb": "42px",
+                "textAlign": "left",
+              }
+            }
+          >
+            <Insertion
+              cache={
+                Object {
+                  "insert": [Function],
+                  "inserted": Object {
+                    "1a2z11u-MuiAlert-root": true,
+                    "1pxa9xg-MuiAlert-message": true,
+                    "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                    "1vooibu-MuiSvgIcon-root": true,
+                    "1ytlwq5-MuiAlert-icon": true,
+                    "u1432x-MuiSnackbar-root": true,
+                    "z38s29-MuiSnackbar-root": true,
+                  },
+                  "key": "css",
+                  "nonce": undefined,
+                  "registered": Object {
+                    "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                  },
+                  "sheet": StyleSheet {
+                    "_alreadyInsertedOrderInsensitiveRule": true,
+                    "_insertTag": [Function],
+                    "before": null,
+                    "container": <head>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                      </style>
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                      </style>
+                    </head>,
+                    "ctr": 15,
+                    "insertionPoint": undefined,
+                    "isSpeedy": false,
+                    "key": "css",
+                    "nonce": undefined,
+                    "prepend": undefined,
+                    "tags": Array [
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                      </style>,
+                      <style
+                        data-emotion="css"
+                        data-s=""
+                      >
+                        
+                        @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                      </style>,
+                    ],
+                  },
+                }
+              }
+              isStringTag={false}
+              serialized={
+                Object {
+                  "map": undefined,
+                  "name": "1a2z11u-MuiAlert-root",
+                  "next": undefined,
+                  "styles": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                  "toString": [Function],
+                }
+              }
+            />
+            <ForwardRef(Paper)
+              className="MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1a2z11u-MuiAlert-root"
+              data-testid="alert-message-item"
+              direction="down"
+              elevation={0}
+              role="alert"
+              style={
+                Object {
+                  "opacity": 1,
+                  "transform": "scale(1, 1)",
+                  "visibility": undefined,
+                }
+              }
+            >
+              <MuiPaperRoot
+                as="div"
+                className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1a2z11u-MuiAlert-root"
+                data-testid="alert-message-item"
+                direction="down"
+                ownerState={
+                  Object {
+                    "children": Array [
+                      <MuiAlertIcon
+                        className="MuiAlert-icon"
+                        ownerState={
+                          Object {
+                            "children": "Test Message for Snackbar",
+                            "color": undefined,
+                            "data-testid": "alert-message-item",
+                            "direction": "down",
+                            "severity": "success",
+                            "style": Object {
+                              "opacity": 1,
+                              "transform": "scale(1, 1)",
+                              "visibility": undefined,
+                            },
+                            "sx": Object {
+                              "mb": "42px",
+                              "textAlign": "left",
+                            },
+                            "variant": "standard",
+                          }
+                        }
+                      >
+                        <Memo
+                          fontSize="inherit"
+                        />
+                      </MuiAlertIcon>,
+                      <MuiAlertMessage
+                        className="MuiAlert-message"
+                        ownerState={
+                          Object {
+                            "children": "Test Message for Snackbar",
+                            "color": undefined,
+                            "data-testid": "alert-message-item",
+                            "direction": "down",
+                            "severity": "success",
+                            "style": Object {
+                              "opacity": 1,
+                              "transform": "scale(1, 1)",
+                              "visibility": undefined,
+                            },
+                            "sx": Object {
+                              "mb": "42px",
+                              "textAlign": "left",
+                            },
+                            "variant": "standard",
+                          }
+                        }
+                      >
+                        Test Message for Snackbar
+                      </MuiAlertMessage>,
+                      null,
+                      null,
+                    ],
+                    "className": "MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1a2z11u-MuiAlert-root",
+                    "component": "div",
+                    "data-testid": "alert-message-item",
+                    "direction": "down",
+                    "elevation": 0,
+                    "role": "alert",
+                    "square": false,
+                    "style": Object {
+                      "opacity": 1,
+                      "transform": "scale(1, 1)",
+                      "visibility": undefined,
+                    },
+                    "variant": "elevation",
+                  }
+                }
+                role="alert"
+                style={
+                  Object {
+                    "opacity": 1,
+                    "transform": "scale(1, 1)",
+                    "visibility": undefined,
+                  }
+                }
+              >
+                <Insertion
+                  cache={
+                    Object {
+                      "insert": [Function],
+                      "inserted": Object {
+                        "1a2z11u-MuiAlert-root": true,
+                        "1pxa9xg-MuiAlert-message": true,
+                        "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                        "1vooibu-MuiSvgIcon-root": true,
+                        "1ytlwq5-MuiAlert-icon": true,
+                        "u1432x-MuiSnackbar-root": true,
+                        "z38s29-MuiSnackbar-root": true,
+                      },
+                      "key": "css",
+                      "nonce": undefined,
+                      "registered": Object {
+                        "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                      },
+                      "sheet": StyleSheet {
+                        "_alreadyInsertedOrderInsensitiveRule": true,
+                        "_insertTag": [Function],
+                        "before": null,
+                        "container": <head>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                          </style>
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                          </style>
+                        </head>,
+                        "ctr": 15,
+                        "insertionPoint": undefined,
+                        "isSpeedy": false,
+                        "key": "css",
+                        "nonce": undefined,
+                        "prepend": undefined,
+                        "tags": Array [
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                          </style>,
+                          <style
+                            data-emotion="css"
+                            data-s=""
+                          >
+                            
+                            @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                          </style>,
+                        ],
+                      },
+                    }
+                  }
+                  isStringTag={true}
+                  serialized={
+                    Object {
+                      "map": undefined,
+                      "name": "1vktxec-MuiPaper-root-MuiAlert-root",
+                      "next": undefined,
+                      "styles": "label:MuiPaper-root;background-color:#fff;color:#1e1e1e;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;;",
+                      "toString": [Function],
+                    }
+                  }
+                />
+                <div
+                  className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-1vktxec-MuiPaper-root-MuiAlert-root"
+                  data-testid="alert-message-item"
+                  direction="down"
+                  role="alert"
+                  style={
+                    Object {
+                      "opacity": 1,
+                      "transform": "scale(1, 1)",
+                      "visibility": undefined,
+                    }
+                  }
+                >
+                  <MuiAlertIcon
+                    className="MuiAlert-icon"
+                    ownerState={
+                      Object {
+                        "children": "Test Message for Snackbar",
+                        "color": undefined,
+                        "data-testid": "alert-message-item",
+                        "direction": "down",
+                        "severity": "success",
+                        "style": Object {
+                          "opacity": 1,
+                          "transform": "scale(1, 1)",
+                          "visibility": undefined,
+                        },
+                        "sx": Object {
+                          "mb": "42px",
+                          "textAlign": "left",
+                        },
+                        "variant": "standard",
+                      }
+                    }
+                  >
+                    <Insertion
+                      cache={
+                        Object {
+                          "insert": [Function],
+                          "inserted": Object {
+                            "1a2z11u-MuiAlert-root": true,
+                            "1pxa9xg-MuiAlert-message": true,
+                            "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                            "1vooibu-MuiSvgIcon-root": true,
+                            "1ytlwq5-MuiAlert-icon": true,
+                            "u1432x-MuiSnackbar-root": true,
+                            "z38s29-MuiSnackbar-root": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": Object {
+                            "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                          },
+                          "sheet": StyleSheet {
+                            "_alreadyInsertedOrderInsensitiveRule": true,
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": <head>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>
+                            </head>,
+                            "ctr": 15,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": Array [
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>,
+                            ],
+                          },
+                        }
+                      }
+                      isStringTag={true}
+                      serialized={
+                        Object {
+                          "map": undefined,
+                          "name": "1ytlwq5-MuiAlert-icon",
+                          "next": undefined,
+                          "styles": "label:MuiAlert-icon;margin-right:12px;padding:7px 0;display:flex;font-size:22px;opacity:0.9;",
+                          "toString": [Function],
+                        }
+                      }
+                    />
+                    <div
+                      className="MuiAlert-icon css-1ytlwq5-MuiAlert-icon"
+                    >
+                      <ForwardRef(SuccessOutlinedIcon)
+                        fontSize="inherit"
+                      >
+                        <ForwardRef(SvgIcon)
+                          data-testid="SuccessOutlinedIcon"
+                          fontSize="inherit"
+                        >
+                          <MuiSvgIconRoot
+                            aria-hidden={true}
+                            as="svg"
+                            className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+                            data-testid="SuccessOutlinedIcon"
+                            focusable="false"
+                            ownerState={
+                              Object {
+                                "children": <path
+                                  d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+                                />,
+                                "color": "inherit",
+                                "component": "svg",
+                                "data-testid": "SuccessOutlinedIcon",
+                                "fontSize": "inherit",
+                                "inheritViewBox": false,
+                                "instanceFontSize": "inherit",
+                                "viewBox": "0 0 24 24",
+                              }
+                            }
+                            viewBox="0 0 24 24"
+                          >
+                            <Insertion
+                              cache={
+                                Object {
+                                  "insert": [Function],
+                                  "inserted": Object {
+                                    "1a2z11u-MuiAlert-root": true,
+                                    "1pxa9xg-MuiAlert-message": true,
+                                    "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                                    "1vooibu-MuiSvgIcon-root": true,
+                                    "1ytlwq5-MuiAlert-icon": true,
+                                    "u1432x-MuiSnackbar-root": true,
+                                    "z38s29-MuiSnackbar-root": true,
+                                  },
+                                  "key": "css",
+                                  "nonce": undefined,
+                                  "registered": Object {
+                                    "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                                  },
+                                  "sheet": StyleSheet {
+                                    "_alreadyInsertedOrderInsensitiveRule": true,
+                                    "_insertTag": [Function],
+                                    "before": null,
+                                    "container": <head>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                                      </style>
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                                      </style>
+                                    </head>,
+                                    "ctr": 15,
+                                    "insertionPoint": undefined,
+                                    "isSpeedy": false,
+                                    "key": "css",
+                                    "nonce": undefined,
+                                    "prepend": undefined,
+                                    "tags": Array [
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                                      </style>,
+                                      <style
+                                        data-emotion="css"
+                                        data-s=""
+                                      >
+                                        
+                                        @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                                      </style>,
+                                    ],
+                                  },
+                                }
+                              }
+                              isStringTag={true}
+                              serialized={
+                                Object {
+                                  "map": undefined,
+                                  "name": "1vooibu-MuiSvgIcon-root",
+                                  "next": undefined,
+                                  "styles": "label:MuiSvgIcon-root;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;flex-shrink:0;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;",
+                                  "toString": [Function],
+                                }
+                              }
+                            />
+                            <svg
+                              aria-hidden={true}
+                              className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1vooibu-MuiSvgIcon-root"
+                              data-testid="SuccessOutlinedIcon"
+                              focusable="false"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4C12.76,4 13.5,4.11 14.2, 4.31L15.77,2.74C14.61,2.26 13.34,2 12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0, 0 22,12M7.91,10.08L6.5,11.5L11,16L21,6L19.59,4.58L11,13.17L7.91,10.08Z"
+                              />
+                            </svg>
+                          </MuiSvgIconRoot>
+                        </ForwardRef(SvgIcon)>
+                      </ForwardRef(SuccessOutlinedIcon)>
+                    </div>
+                  </MuiAlertIcon>
+                  <MuiAlertMessage
+                    className="MuiAlert-message"
+                    ownerState={
+                      Object {
+                        "children": "Test Message for Snackbar",
+                        "color": undefined,
+                        "data-testid": "alert-message-item",
+                        "direction": "down",
+                        "severity": "success",
+                        "style": Object {
+                          "opacity": 1,
+                          "transform": "scale(1, 1)",
+                          "visibility": undefined,
+                        },
+                        "sx": Object {
+                          "mb": "42px",
+                          "textAlign": "left",
+                        },
+                        "variant": "standard",
+                      }
+                    }
+                  >
+                    <Insertion
+                      cache={
+                        Object {
+                          "insert": [Function],
+                          "inserted": Object {
+                            "1a2z11u-MuiAlert-root": true,
+                            "1pxa9xg-MuiAlert-message": true,
+                            "1vktxec-MuiPaper-root-MuiAlert-root": true,
+                            "1vooibu-MuiSvgIcon-root": true,
+                            "1ytlwq5-MuiAlert-icon": true,
+                            "u1432x-MuiSnackbar-root": true,
+                            "z38s29-MuiSnackbar-root": true,
+                          },
+                          "key": "css",
+                          "nonce": undefined,
+                          "registered": Object {
+                            "css-1a2z11u-MuiAlert-root": "label:MuiAlert-root;font-family:Roboto, Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:flex;padding:6px 16px;color:rgb(20, 70, 62);& .MuiAlert-icon{color:#009E82;}text-align:left;margin-bottom:42px;",
+                          },
+                          "sheet": StyleSheet {
+                            "_alreadyInsertedOrderInsensitiveRule": true,
+                            "_insertTag": [Function],
+                            "before": null,
+                            "container": <head>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                              </style>
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>
+                            </head>,
+                            "ctr": 15,
+                            "insertionPoint": undefined,
+                            "isSpeedy": false,
+                            "key": "css",
+                            "nonce": undefined,
+                            "prepend": undefined,
+                            "tags": Array [
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-z38s29-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:calc(90px - 10px);width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-z38s29-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-z38s29-MuiSnackbar-root{left:50%;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-z38s29-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root{font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1a2z11u-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root{background-color:#fff;color:#1e1e1e;-webkit-transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;border-radius:4px;box-shadow:none;font-family:Roboto,Arial;font-weight:400;font-size:0.875rem;line-height:1.43;background-color:rgb(234, 247, 245);display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:6px 16px;color:rgb(20, 70, 62);text-align:left;margin-bottom:42px;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vktxec-MuiPaper-root-MuiAlert-root .MuiAlert-icon{color:#009E82;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1ytlwq5-MuiAlert-icon{margin-right:12px;padding:7px 0;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:22px;opacity:0.9;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1vooibu-MuiSvgIcon-root{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:1em;height:1em;display:inline-block;fill:currentColor;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;-webkit-transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;transition:fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;font-size:inherit;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-1pxa9xg-MuiAlert-message{padding:8px 0;min-width:0;overflow:auto;}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                .css-u1432x-MuiSnackbar-root{z-index:1400;position:fixed;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;left:8px;right:8px;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;top:8px;padding:0px 3px 0 3px;width:100%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:481px){.css-u1432x-MuiSnackbar-root{top:24px;left:50%;right:auto;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:0px){.css-u1432x-MuiSnackbar-root{left:50%;}}
+                              </style>,
+                              <style
+                                data-emotion="css"
+                                data-s=""
+                              >
+                                
+                                @media (min-width:769px){.css-u1432x-MuiSnackbar-root{left:calc(50% - 150px);margin-left:300px;}}
+                              </style>,
+                            ],
+                          },
+                        }
+                      }
+                      isStringTag={true}
+                      serialized={
+                        Object {
+                          "map": undefined,
+                          "name": "1pxa9xg-MuiAlert-message",
+                          "next": undefined,
+                          "styles": "label:MuiAlert-message;padding:8px 0;min-width:0;overflow:auto;",
+                          "toString": [Function],
+                        }
+                      }
+                    />
+                    <div
+                      className="MuiAlert-message css-1pxa9xg-MuiAlert-message"
+                    >
+                      Test Message for Snackbar
+                    </div>
+                  </MuiAlertMessage>
+                </div>
+              </MuiPaperRoot>
+            </ForwardRef(Paper)>
+          </MuiAlertRoot>
+        </ForwardRef(Alert)>
+      </Alerts>
+    </Transition>
+  </ForwardRef(Grow)>
+</div>
+`;
+
+exports[`- Snackbar Component - Shallow Renders Mobile View Component to be defined with code -> SME_POST_ASSET_SUCCESS 1`] = `
+<ForwardRef(Snackbar)
+  anchorOrigin={
+    Object {
+      "horizontal": "center",
+      "vertical": "top",
+    }
+  }
+  autoHideDuration={4000}
+  data-testid="snack-bar-test"
+  onClose={[Function]}
+  open={false}
+  sx={
+    Object {
+      "left": Object {
+        "md": "calc(50% - 150px)",
+        "xs": "50%",
+      },
+      "marginLeft": Object {
+        "md": "300px",
+      },
+      "padding": "0px 3px 0 3px",
+      "transform": "translateX(-50%)",
+      "width": "100%",
+    }
+  }
+/>
+`;

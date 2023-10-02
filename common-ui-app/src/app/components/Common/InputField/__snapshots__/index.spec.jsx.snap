@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- InputField Component - Renders Component - snapshot test 1`] = `
+<ForwardRef(TextField)
+  InputProps={
+    Object {
+      "inputProps": Object {
+        "aria-required": undefined,
+        "data-testid": "undefined-mui-input",
+        "maxLength": undefined,
+        "minLength": undefined,
+      },
+    }
+  }
+  color="primary"
+  focused={false}
+  fullWidth={true}
+  inputProps={
+    Object {
+      "aria-required": undefined,
+      "data-testid": "undefined-mui-input",
+      "maxLength": undefined,
+      "minLength": undefined,
+    }
+  }
+  onChange={[Function]}
+  variant="outlined"
+/>
+`;
+
+exports[`- InputField Component - Renders Component - snapshot test for invalid data 1`] = `
+<ForwardRef(TextField)
+  InputProps={
+    Object {
+      "inputProps": Object {
+        "aria-required": undefined,
+        "data-testid": "undefined-mui-input",
+        "maxLength": undefined,
+        "minLength": undefined,
+      },
+    }
+  }
+  color="info"
+  focused={true}
+  fullWidth={true}
+  helperText={false}
+  inputProps={
+    Object {
+      "aria-required": undefined,
+      "data-testid": "undefined-mui-input",
+      "maxLength": undefined,
+      "minLength": undefined,
+    }
+  }
+  onChange={[Function]}
+  variant="outlined"
+/>
+`;
+
+exports[`- InputField Component - Renders Component - snapshot test for successfull validation 1`] = `
+<ForwardRef(TextField)
+  InputProps={
+    Object {
+      "inputProps": Object {
+        "aria-required": undefined,
+        "data-testid": "undefined-mui-input",
+        "maxLength": undefined,
+        "minLength": undefined,
+      },
+    }
+  }
+  color="info"
+  focused={true}
+  fullWidth={true}
+  helperText={false}
+  inputProps={
+    Object {
+      "aria-required": undefined,
+      "data-testid": "undefined-mui-input",
+      "maxLength": undefined,
+      "minLength": undefined,
+    }
+  }
+  onChange={[Function]}
+  variant="outlined"
+/>
+`;

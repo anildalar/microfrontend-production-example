@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- ItemsGridView Component - Renders Component - Desktop View test 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1osj8n2-MuiGrid-root"
+  >
+    <div
+      className="MuiBox-root css-cwai0m"
+    />
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1osj8n2-MuiGrid-root"
+  >
+    <div
+      className="MuiBox-root css-aqbich"
+    />
+  </div>
+</div>
+`;
+
+exports[`- ItemsGridView Component - Renders Component - Mobile View test 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1osj8n2-MuiGrid-root"
+  >
+    <div
+      className="MuiBox-root css-cwai0m"
+    />
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6 MuiGrid-grid-lg-6 css-1osj8n2-MuiGrid-root"
+  >
+    <div
+      className="MuiBox-root css-aqbich"
+    />
+  </div>
+</div>
+`;

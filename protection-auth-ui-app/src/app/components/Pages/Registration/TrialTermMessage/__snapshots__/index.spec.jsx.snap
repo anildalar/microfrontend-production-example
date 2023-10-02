@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TrialTermMessage - Component to be defined test 1`] = `
+<h6
+  className="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+>
+  registration.trial_term_message
+</h6>
+`;

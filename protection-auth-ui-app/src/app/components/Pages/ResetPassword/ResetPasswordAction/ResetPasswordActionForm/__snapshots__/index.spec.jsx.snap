@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Renders Component - Component to be defined test 1`] = `
+<form
+  data-testid="reset-password-action-form"
+  onSubmit={[Function]}
+>
+  <div
+    className="MuiGrid-root css-vj1n65-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-13i4rnv-MuiGrid-root"
+    >
+      form_field_items.resetPassword_note
+    </div>
+  </div>
+  <button
+    aria-label="action_items.resetpassword_label"
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-p9wzca-MuiButtonBase-root-MuiButton-root"
+    data-testid="resetpassword-action-submit"
+    disabled={true}
+    onBlur={[Function]}
+    onContextMenu={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={-1}
+    type="submit"
+  >
+    action_items.submit_label
+  </button>
+</form>
+`;

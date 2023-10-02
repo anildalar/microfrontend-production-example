@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip Component - Component with Snapshot 1`] = `
+<td
+  aria-sort={null}
+  className="MuiTableCell-root MuiTableCell-sizeMedium columnHeaderTitle css-bsph2u-MuiTableCell-root"
+>
+  <span
+    className="MuiTypography-root MuiTypography-abc css-37jdci-MuiTypography-root"
+  >
+    title
+  </span>
+</td>
+`;

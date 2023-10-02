@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- ResetPassword Component - Renders Component - Component to be defined test 1`] = `
+<div
+  className="css-0"
+>
+  <div
+    className="MuiContainer-root MuiContainer-maxWidthLg css-camo0u-MuiContainer-root"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-887cpn-MuiPaper-root"
+      data-testid="reset-password-small-section-container"
+    >
+      <h1
+        className="MuiTypography-root MuiTypography-h1 css-1tvtc4i-MuiTypography-root"
+        data-testid="create-resetPassword-heading"
+      >
+        resetPassword.heading
+      </h1>
+      <p
+        className="MuiTypography-root MuiTypography-body1 css-1tmrmy8-MuiTypography-root"
+        data-testid="create-resetPassword-subHeading"
+      >
+        resetPassword.subHeading
+      </p>
+      <form
+        data-testid="reset-password-action-form"
+        onSubmit={[Function]}
+      >
+        <div
+          className="MuiGrid-root css-vj1n65-MuiGrid-root"
+        >
+          <div
+            className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-13i4rnv-MuiGrid-root"
+          >
+            form_field_items.resetPassword_note
+          </div>
+        </div>
+        <button
+          aria-label="action_items.resetpassword_label"
+          className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-p9wzca-MuiButtonBase-root-MuiButton-root"
+          data-testid="resetpassword-action-submit"
+          disabled={true}
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={-1}
+          type="submit"
+        >
+          action_items.submit_label
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

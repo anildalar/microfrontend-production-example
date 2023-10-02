@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- AlertCard Component Component to be defined 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standardSuccess MuiAlert-standard css-frvpmh-MuiPaper-root-MuiAlert-root"
+  role="alert"
+>
+  <div
+    className="MuiAlert-icon css-1ytlwq5-MuiAlert-icon"
+  />
+  <div
+    className="MuiAlert-message css-1pxa9xg-MuiAlert-message"
+  >
+    <div
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom MuiAlertTitle-root css-yslrua-MuiTypography-root-MuiAlertTitle-root"
+      data-testid="alertCard-heading"
+    >
+      alertCenter.resolved_moveToResolved_description
+    </div>
+    <h6
+      className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+      data-testid="alertCard-subHeading"
+    >
+      abc
+    </h6>
+  </div>
+</div>
+`;
+
+exports[`- AlertCard Component Component to be defined with snackbar message 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation0 MuiAlert-root MuiAlert-standard MuiAlert-standard css-xsgba7-MuiPaper-root-MuiAlert-root"
+  role="alert"
+>
+  <div
+    className="MuiAlert-icon css-1ytlwq5-MuiAlert-icon"
+  />
+  <div
+    className="MuiAlert-message css-1pxa9xg-MuiAlert-message"
+  >
+    <div
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom MuiAlertTitle-root css-yslrua-MuiTypography-root-MuiAlertTitle-root"
+      data-testid="alertCard-heading"
+    >
+      alertCenter.resolved_moveToResolved_description
+    </div>
+    <h6
+      className="MuiTypography-root MuiTypography-h6 css-2ulfj5-MuiTypography-root"
+      data-testid="alertCard-subHeading"
+    >
+      abc
+    </h6>
+  </div>
+</div>
+`;

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Sme Modal Component - Renders Component - snapshot test 1`] = `
+<ForwardRef(Dialog)
+  PaperProps={Object {}}
+  aria-describedby=""
+  aria-labelledby=""
+  onClose={[Function]}
+  open={false}
+>
+  <ForwardRef(Grid)
+    container={true}
+    direction="row"
+    justifyContent="flex-end"
+    sx={
+      Object {
+        "margin": "20px 20px 0 0",
+        "width": "auto",
+      }
+    }
+  >
+    <ForwardRef(IconButton)
+      aria-label="close"
+      data-testid="sme-modal-close-action"
+      onClick={[Function]}
+      sx={
+        Object {
+          "padding": "0",
+        }
+      }
+    >
+      <DynamicSVG
+        data-testid="icon-cross-dark"
+        path="resources/images/svg/cross-dark.svg"
+        wrapper="span"
+      />
+    </ForwardRef(IconButton)>
+  </ForwardRef(Grid)>
+  <ForwardRef(Box)
+    data-testid="modal-content-wrapper"
+    sx={
+      Object {
+        "maxHeight": "100%",
+        "overflowY": "auto",
+        "padding": "0px 20px 20px 20px",
+      }
+    }
+  />
+</ForwardRef(Dialog)>
+`;
+
+exports[`- Sme Modal Component - Renders Mobile Component render Mobile view test 1`] = `
+<ForwardRef(Dialog)
+  PaperProps={Object {}}
+  aria-describedby=""
+  aria-labelledby=""
+  isMobile={true}
+  onClose={[Function]}
+  open={false}
+>
+  <ForwardRef(Grid)
+    container={true}
+    direction="row"
+    justifyContent="flex-end"
+    sx={
+      Object {
+        "margin": "20px 20px 0 0",
+        "width": "auto",
+      }
+    }
+  >
+    <ForwardRef(IconButton)
+      aria-label="close"
+      data-testid="sme-modal-close-action"
+      onClick={[Function]}
+      sx={
+        Object {
+          "padding": "0",
+        }
+      }
+    >
+      <DynamicSVG
+        data-testid="icon-cross-dark"
+        path="resources/images/svg/cross-dark.svg"
+        wrapper="span"
+      />
+    </ForwardRef(IconButton)>
+  </ForwardRef(Grid)>
+  <ForwardRef(Box)
+    data-testid="modal-content-wrapper"
+    sx={
+      Object {
+        "maxHeight": "100%",
+        "overflowY": "auto",
+        "padding": "0px 20px 20px 20px",
+      }
+    }
+  />
+</ForwardRef(Dialog)>
+`;

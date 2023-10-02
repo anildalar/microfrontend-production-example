@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- PageHeader Component - Renders Component - snapshot test 1`] = `
+<div
+  className="css-68jmn5"
+  sx={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+>
+  <div
+    className="MuiStack-root css-vaugxt-MuiStack-root"
+  >
+    <h2
+      className="MuiTypography-root MuiTypography-h2 css-1sra7t5-MuiTypography-root"
+      data-testid="test-title"
+    >
+      Test
+    </h2>
+  </div>
+  <span
+    className="MuiTypography-root MuiTypography-subtitle_medium_lg css-37jdci-MuiTypography-root"
+    data-testid="test-info"
+  />
+  <div
+    className="MuiBox-root css-16f1609"
+  >
+    <span
+      className="MuiTypography-root MuiTypography-subtitle_regular_sm css-37jdci-MuiTypography-root"
+      data-testid="test-info-subtitle"
+    />
+  </div>
+</div>
+`;
+
+exports[`- PageHeader Component - Renders Component - snapshot test loading prop true 1`] = `
+<div
+  className="css-68jmn5"
+  sx={
+    Object {
+      "backgroundColor": undefined,
+    }
+  }
+>
+  <div
+    className="MuiStack-root css-12af9z5-MuiStack-root"
+  >
+    <span
+      className="MuiSkeleton-root MuiSkeleton-circular MuiSkeleton-pulse css-fomgco-MuiSkeleton-root"
+      style={
+        Object {
+          "height": undefined,
+          "margin": 0,
+          "maxHeight": 40,
+          "maxWidth": 40,
+          "minHeight": 40,
+          "minWidth": 40,
+          "width": undefined,
+        }
+      }
+    />
+    <h2
+      className="MuiTypography-root MuiTypography-h2 css-1sra7t5-MuiTypography-root"
+      data-testid="test-title"
+    >
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1b0745a-MuiSkeleton-root"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+    </h2>
+  </div>
+  <span
+    className="MuiTypography-root MuiTypography-subtitle_medium_lg css-37jdci-MuiTypography-root"
+    data-testid="test-info"
+  >
+    <span
+      className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1b0745a-MuiSkeleton-root"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    />
+  </span>
+  <div
+    className="MuiBox-root css-16f1609"
+  >
+    <span
+      className="MuiTypography-root MuiTypography-subtitle_regular_sm css-37jdci-MuiTypography-root"
+      data-testid="test-info-subtitle"
+    >
+      <span
+        className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1b0745a-MuiSkeleton-root"
+        style={
+          Object {
+            "height": undefined,
+            "width": undefined,
+          }
+        }
+      />
+    </span>
+  </div>
+</div>
+`;

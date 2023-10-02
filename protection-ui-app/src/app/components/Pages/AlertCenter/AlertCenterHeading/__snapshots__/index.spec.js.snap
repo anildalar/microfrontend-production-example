@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- AlertCenterHeading - Shallow Component Snapshot - snapshot test 1`] = `
+Array [
+  <h1
+    className="MuiTypography-root MuiTypography-h1 css-utprum-MuiTypography-root"
+    data-testid="alert-center-heading"
+  >
+    alertCenter.heading
+  </h1>,
+  <h2
+    className="MuiTypography-root MuiTypography-h2 css-1sra7t5-MuiTypography-root"
+    data-testid="alert-center-subHeading"
+  >
+    alertCenter.subHeading
+  </h2>,
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+    data-testid="alert-center-subHeading2"
+  >
+    alertCenter.subHeading2
+  </p>,
+]
+`;

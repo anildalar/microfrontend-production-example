@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- DynamicSVG Component - Renders Component - snapshot test with absolute path 1`] = `null`;
+
+exports[`- DynamicSVG Component - Renders Component - snapshot test with relative path 1`] = `null`;

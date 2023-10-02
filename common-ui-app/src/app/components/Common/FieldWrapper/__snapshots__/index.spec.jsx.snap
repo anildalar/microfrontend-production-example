@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- FieldWrapper Component - Renders Component - snapshot test with absolute path 1`] = `
+Array [
+  <span
+    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1etr2k8-MuiSkeleton-root"
+    style={
+      Object {
+        "height": undefined,
+        "width": undefined,
+      }
+    }
+  />,
+  <p
+    className="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+  >
+    <span
+      className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1b0745a-MuiSkeleton-root"
+      style={
+        Object {
+          "height": undefined,
+          "width": undefined,
+        }
+      }
+    />
+  </p>,
+]
+`;

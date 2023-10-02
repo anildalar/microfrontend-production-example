@@ -1,0 +1,954 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- AppRoutes - Shallow Component Snapshot - Default Loading AppRoutes 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <AppRoutes>
+    <RouterProvider
+      router={
+        Object {
+          "_internalActiveDeferreds": Map {},
+          "_internalFetchControllers": Map {},
+          "_internalSetRoutes": [Function],
+          "basename": "/",
+          "createHref": [Function],
+          "deleteBlocker": [Function],
+          "deleteFetcher": [Function],
+          "dispose": [Function],
+          "enableScrollRestoration": [Function],
+          "encodeLocation": [Function],
+          "fetch": [Function],
+          "getBlocker": [Function],
+          "getFetcher": [Function],
+          "initialize": [Function],
+          "navigate": [Function],
+          "revalidate": [Function],
+          "routes": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": undefined,
+                  "element": <React.Fragment />,
+                  "hasErrorBoundary": false,
+                  "id": "0-0",
+                  "path": "",
+                },
+                Object {
+                  "children": undefined,
+                  "element": <React.Fragment />,
+                  "hasErrorBoundary": false,
+                  "id": "0-1",
+                  "path": "",
+                },
+                Object {
+                  "children": undefined,
+                  "element": <React.Fragment />,
+                  "hasErrorBoundary": false,
+                  "id": "0-2",
+                  "path": "",
+                },
+                Object {
+                  "children": undefined,
+                  "element": <React.Fragment />,
+                  "hasErrorBoundary": false,
+                  "id": "0-3",
+                  "path": "",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "element": <FullPageError />,
+                          "hasErrorBoundary": false,
+                          "id": "0-4-0-0",
+                          "index": true,
+                        },
+                        Object {
+                          "children": undefined,
+                          "element": <GenericErrorPage />,
+                          "hasErrorBoundary": false,
+                          "id": "0-4-0-1",
+                          "path": "generic",
+                        },
+                      ],
+                      "hasErrorBoundary": false,
+                      "id": "0-4-0",
+                      "path": "error",
+                    },
+                    Object {
+                      "children": undefined,
+                      "element": <Maintenance
+                        isPageNotFound={true}
+                      />,
+                      "hasErrorBoundary": false,
+                      "id": "0-4-1",
+                      "path": "*",
+                    },
+                  ],
+                  "element": <PublicRoute />,
+                  "hasErrorBoundary": false,
+                  "id": "0-4",
+                  "path": "*",
+                },
+              ],
+              "hasErrorBoundary": false,
+              "id": "0",
+              "path": "/",
+            },
+          ],
+          "state": Object {
+            "actionData": null,
+            "blockers": Map {},
+            "errors": null,
+            "fetchers": Map {},
+            "historyAction": "POP",
+            "initialized": true,
+            "loaderData": Object {},
+            "location": Object {
+              "hash": "",
+              "key": "default",
+              "pathname": "/",
+              "search": "",
+              "state": null,
+            },
+            "matches": Array [
+              Object {
+                "params": Object {},
+                "pathname": "/",
+                "pathnameBase": "/",
+                "route": Object {
+                  "children": Array [
+                    Object {
+                      "children": undefined,
+                      "element": <React.Fragment />,
+                      "hasErrorBoundary": false,
+                      "id": "0-0",
+                      "path": "",
+                    },
+                    Object {
+                      "children": undefined,
+                      "element": <React.Fragment />,
+                      "hasErrorBoundary": false,
+                      "id": "0-1",
+                      "path": "",
+                    },
+                    Object {
+                      "children": undefined,
+                      "element": <React.Fragment />,
+                      "hasErrorBoundary": false,
+                      "id": "0-2",
+                      "path": "",
+                    },
+                    Object {
+                      "children": undefined,
+                      "element": <React.Fragment />,
+                      "hasErrorBoundary": false,
+                      "id": "0-3",
+                      "path": "",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "element": <FullPageError />,
+                              "hasErrorBoundary": false,
+                              "id": "0-4-0-0",
+                              "index": true,
+                            },
+                            Object {
+                              "children": undefined,
+                              "element": <GenericErrorPage />,
+                              "hasErrorBoundary": false,
+                              "id": "0-4-0-1",
+                              "path": "generic",
+                            },
+                          ],
+                          "hasErrorBoundary": false,
+                          "id": "0-4-0",
+                          "path": "error",
+                        },
+                        Object {
+                          "children": undefined,
+                          "element": <Maintenance
+                            isPageNotFound={true}
+                          />,
+                          "hasErrorBoundary": false,
+                          "id": "0-4-1",
+                          "path": "*",
+                        },
+                      ],
+                      "element": <PublicRoute />,
+                      "hasErrorBoundary": false,
+                      "id": "0-4",
+                      "path": "*",
+                    },
+                  ],
+                  "hasErrorBoundary": false,
+                  "id": "0",
+                  "path": "/",
+                },
+              },
+              Object {
+                "params": Object {},
+                "pathname": "/",
+                "pathnameBase": "/",
+                "route": Object {
+                  "children": undefined,
+                  "element": <React.Fragment />,
+                  "hasErrorBoundary": false,
+                  "id": "0-0",
+                  "path": "",
+                },
+              },
+            ],
+            "navigation": Object {
+              "formAction": undefined,
+              "formData": undefined,
+              "formEncType": undefined,
+              "formMethod": undefined,
+              "json": undefined,
+              "location": undefined,
+              "state": "idle",
+              "text": undefined,
+            },
+            "preventScrollReset": false,
+            "restoreScrollPosition": null,
+            "revalidation": "idle",
+          },
+          "subscribe": [Function],
+        }
+      }
+    >
+      <Router
+        basename="/"
+        location={
+          Object {
+            "hash": "",
+            "key": "default",
+            "pathname": "/",
+            "search": "",
+            "state": null,
+          }
+        }
+        navigationType="POP"
+        navigator={
+          Object {
+            "createHref": [Function],
+            "encodeLocation": [Function],
+            "go": [Function],
+            "push": [Function],
+            "replace": [Function],
+          }
+        }
+      >
+        <DataRoutes
+          routes={
+            Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": undefined,
+                    "element": <React.Fragment />,
+                    "hasErrorBoundary": false,
+                    "id": "0-0",
+                    "path": "",
+                  },
+                  Object {
+                    "children": undefined,
+                    "element": <React.Fragment />,
+                    "hasErrorBoundary": false,
+                    "id": "0-1",
+                    "path": "",
+                  },
+                  Object {
+                    "children": undefined,
+                    "element": <React.Fragment />,
+                    "hasErrorBoundary": false,
+                    "id": "0-2",
+                    "path": "",
+                  },
+                  Object {
+                    "children": undefined,
+                    "element": <React.Fragment />,
+                    "hasErrorBoundary": false,
+                    "id": "0-3",
+                    "path": "",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "element": <FullPageError />,
+                            "hasErrorBoundary": false,
+                            "id": "0-4-0-0",
+                            "index": true,
+                          },
+                          Object {
+                            "children": undefined,
+                            "element": <GenericErrorPage />,
+                            "hasErrorBoundary": false,
+                            "id": "0-4-0-1",
+                            "path": "generic",
+                          },
+                        ],
+                        "hasErrorBoundary": false,
+                        "id": "0-4-0",
+                        "path": "error",
+                      },
+                      Object {
+                        "children": undefined,
+                        "element": <Maintenance
+                          isPageNotFound={true}
+                        />,
+                        "hasErrorBoundary": false,
+                        "id": "0-4-1",
+                        "path": "*",
+                      },
+                    ],
+                    "element": <PublicRoute />,
+                    "hasErrorBoundary": false,
+                    "id": "0-4",
+                    "path": "*",
+                  },
+                ],
+                "hasErrorBoundary": false,
+                "id": "0",
+                "path": "/",
+              },
+            ]
+          }
+          state={
+            Object {
+              "actionData": null,
+              "blockers": Map {},
+              "errors": null,
+              "fetchers": Map {},
+              "historyAction": "POP",
+              "initialized": true,
+              "loaderData": Object {},
+              "location": Object {
+                "hash": "",
+                "key": "default",
+                "pathname": "/",
+                "search": "",
+                "state": null,
+              },
+              "matches": Array [
+                Object {
+                  "params": Object {},
+                  "pathname": "/",
+                  "pathnameBase": "/",
+                  "route": Object {
+                    "children": Array [
+                      Object {
+                        "children": undefined,
+                        "element": <React.Fragment />,
+                        "hasErrorBoundary": false,
+                        "id": "0-0",
+                        "path": "",
+                      },
+                      Object {
+                        "children": undefined,
+                        "element": <React.Fragment />,
+                        "hasErrorBoundary": false,
+                        "id": "0-1",
+                        "path": "",
+                      },
+                      Object {
+                        "children": undefined,
+                        "element": <React.Fragment />,
+                        "hasErrorBoundary": false,
+                        "id": "0-2",
+                        "path": "",
+                      },
+                      Object {
+                        "children": undefined,
+                        "element": <React.Fragment />,
+                        "hasErrorBoundary": false,
+                        "id": "0-3",
+                        "path": "",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "element": <FullPageError />,
+                                "hasErrorBoundary": false,
+                                "id": "0-4-0-0",
+                                "index": true,
+                              },
+                              Object {
+                                "children": undefined,
+                                "element": <GenericErrorPage />,
+                                "hasErrorBoundary": false,
+                                "id": "0-4-0-1",
+                                "path": "generic",
+                              },
+                            ],
+                            "hasErrorBoundary": false,
+                            "id": "0-4-0",
+                            "path": "error",
+                          },
+                          Object {
+                            "children": undefined,
+                            "element": <Maintenance
+                              isPageNotFound={true}
+                            />,
+                            "hasErrorBoundary": false,
+                            "id": "0-4-1",
+                            "path": "*",
+                          },
+                        ],
+                        "element": <PublicRoute />,
+                        "hasErrorBoundary": false,
+                        "id": "0-4",
+                        "path": "*",
+                      },
+                    ],
+                    "hasErrorBoundary": false,
+                    "id": "0",
+                    "path": "/",
+                  },
+                },
+                Object {
+                  "params": Object {},
+                  "pathname": "/",
+                  "pathnameBase": "/",
+                  "route": Object {
+                    "children": undefined,
+                    "element": <React.Fragment />,
+                    "hasErrorBoundary": false,
+                    "id": "0-0",
+                    "path": "",
+                  },
+                },
+              ],
+              "navigation": Object {
+                "formAction": undefined,
+                "formData": undefined,
+                "formEncType": undefined,
+                "formMethod": undefined,
+                "json": undefined,
+                "location": undefined,
+                "state": "idle",
+                "text": undefined,
+              },
+              "preventScrollReset": false,
+              "restoreScrollPosition": null,
+              "revalidation": "idle",
+            }
+          }
+        >
+          <RenderErrorBoundary
+            component={<DefaultErrorComponent />}
+            location={
+              Object {
+                "hash": "",
+                "key": "default",
+                "pathname": "/",
+                "search": "",
+                "state": null,
+              }
+            }
+            revalidation="idle"
+            routeContext={
+              Object {
+                "isDataRoute": true,
+                "matches": Array [
+                  Object {
+                    "params": Object {},
+                    "pathname": "/",
+                    "pathnameBase": "/",
+                    "route": Object {
+                      "children": Array [
+                        Object {
+                          "children": undefined,
+                          "element": <React.Fragment />,
+                          "hasErrorBoundary": false,
+                          "id": "0-0",
+                          "path": "",
+                        },
+                        Object {
+                          "children": undefined,
+                          "element": <React.Fragment />,
+                          "hasErrorBoundary": false,
+                          "id": "0-1",
+                          "path": "",
+                        },
+                        Object {
+                          "children": undefined,
+                          "element": <React.Fragment />,
+                          "hasErrorBoundary": false,
+                          "id": "0-2",
+                          "path": "",
+                        },
+                        Object {
+                          "children": undefined,
+                          "element": <React.Fragment />,
+                          "hasErrorBoundary": false,
+                          "id": "0-3",
+                          "path": "",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "element": <FullPageError />,
+                                  "hasErrorBoundary": false,
+                                  "id": "0-4-0-0",
+                                  "index": true,
+                                },
+                                Object {
+                                  "children": undefined,
+                                  "element": <GenericErrorPage />,
+                                  "hasErrorBoundary": false,
+                                  "id": "0-4-0-1",
+                                  "path": "generic",
+                                },
+                              ],
+                              "hasErrorBoundary": false,
+                              "id": "0-4-0",
+                              "path": "error",
+                            },
+                            Object {
+                              "children": undefined,
+                              "element": <Maintenance
+                                isPageNotFound={true}
+                              />,
+                              "hasErrorBoundary": false,
+                              "id": "0-4-1",
+                              "path": "*",
+                            },
+                          ],
+                          "element": <PublicRoute />,
+                          "hasErrorBoundary": false,
+                          "id": "0-4",
+                          "path": "*",
+                        },
+                      ],
+                      "hasErrorBoundary": false,
+                      "id": "0",
+                      "path": "/",
+                    },
+                  },
+                ],
+                "outlet": null,
+              }
+            }
+          >
+            <RenderedRoute
+              match={
+                Object {
+                  "params": Object {},
+                  "pathname": "/",
+                  "pathnameBase": "/",
+                  "route": Object {
+                    "children": Array [
+                      Object {
+                        "children": undefined,
+                        "element": <React.Fragment />,
+                        "hasErrorBoundary": false,
+                        "id": "0-0",
+                        "path": "",
+                      },
+                      Object {
+                        "children": undefined,
+                        "element": <React.Fragment />,
+                        "hasErrorBoundary": false,
+                        "id": "0-1",
+                        "path": "",
+                      },
+                      Object {
+                        "children": undefined,
+                        "element": <React.Fragment />,
+                        "hasErrorBoundary": false,
+                        "id": "0-2",
+                        "path": "",
+                      },
+                      Object {
+                        "children": undefined,
+                        "element": <React.Fragment />,
+                        "hasErrorBoundary": false,
+                        "id": "0-3",
+                        "path": "",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "element": <FullPageError />,
+                                "hasErrorBoundary": false,
+                                "id": "0-4-0-0",
+                                "index": true,
+                              },
+                              Object {
+                                "children": undefined,
+                                "element": <GenericErrorPage />,
+                                "hasErrorBoundary": false,
+                                "id": "0-4-0-1",
+                                "path": "generic",
+                              },
+                            ],
+                            "hasErrorBoundary": false,
+                            "id": "0-4-0",
+                            "path": "error",
+                          },
+                          Object {
+                            "children": undefined,
+                            "element": <Maintenance
+                              isPageNotFound={true}
+                            />,
+                            "hasErrorBoundary": false,
+                            "id": "0-4-1",
+                            "path": "*",
+                          },
+                        ],
+                        "element": <PublicRoute />,
+                        "hasErrorBoundary": false,
+                        "id": "0-4",
+                        "path": "*",
+                      },
+                    ],
+                    "hasErrorBoundary": false,
+                    "id": "0",
+                    "path": "/",
+                  },
+                }
+              }
+              routeContext={
+                Object {
+                  "isDataRoute": true,
+                  "matches": Array [
+                    Object {
+                      "params": Object {},
+                      "pathname": "/",
+                      "pathnameBase": "/",
+                      "route": Object {
+                        "children": Array [
+                          Object {
+                            "children": undefined,
+                            "element": <React.Fragment />,
+                            "hasErrorBoundary": false,
+                            "id": "0-0",
+                            "path": "",
+                          },
+                          Object {
+                            "children": undefined,
+                            "element": <React.Fragment />,
+                            "hasErrorBoundary": false,
+                            "id": "0-1",
+                            "path": "",
+                          },
+                          Object {
+                            "children": undefined,
+                            "element": <React.Fragment />,
+                            "hasErrorBoundary": false,
+                            "id": "0-2",
+                            "path": "",
+                          },
+                          Object {
+                            "children": undefined,
+                            "element": <React.Fragment />,
+                            "hasErrorBoundary": false,
+                            "id": "0-3",
+                            "path": "",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "element": <FullPageError />,
+                                    "hasErrorBoundary": false,
+                                    "id": "0-4-0-0",
+                                    "index": true,
+                                  },
+                                  Object {
+                                    "children": undefined,
+                                    "element": <GenericErrorPage />,
+                                    "hasErrorBoundary": false,
+                                    "id": "0-4-0-1",
+                                    "path": "generic",
+                                  },
+                                ],
+                                "hasErrorBoundary": false,
+                                "id": "0-4-0",
+                                "path": "error",
+                              },
+                              Object {
+                                "children": undefined,
+                                "element": <Maintenance
+                                  isPageNotFound={true}
+                                />,
+                                "hasErrorBoundary": false,
+                                "id": "0-4-1",
+                                "path": "*",
+                              },
+                            ],
+                            "element": <PublicRoute />,
+                            "hasErrorBoundary": false,
+                            "id": "0-4",
+                            "path": "*",
+                          },
+                        ],
+                        "hasErrorBoundary": false,
+                        "id": "0",
+                        "path": "/",
+                      },
+                    },
+                  ],
+                  "outlet": <RenderedRoute
+                    match={
+                      Object {
+                        "params": Object {},
+                        "pathname": "/",
+                        "pathnameBase": "/",
+                        "route": Object {
+                          "children": undefined,
+                          "element": <React.Fragment />,
+                          "hasErrorBoundary": false,
+                          "id": "0-0",
+                          "path": "",
+                        },
+                      }
+                    }
+                    routeContext={
+                      Object {
+                        "isDataRoute": true,
+                        "matches": Array [
+                          Object {
+                            "params": Object {},
+                            "pathname": "/",
+                            "pathnameBase": "/",
+                            "route": Object {
+                              "children": Array [
+                                Object {
+                                  "children": undefined,
+                                  "element": <React.Fragment />,
+                                  "hasErrorBoundary": false,
+                                  "id": "0-0",
+                                  "path": "",
+                                },
+                                Object {
+                                  "children": undefined,
+                                  "element": <React.Fragment />,
+                                  "hasErrorBoundary": false,
+                                  "id": "0-1",
+                                  "path": "",
+                                },
+                                Object {
+                                  "children": undefined,
+                                  "element": <React.Fragment />,
+                                  "hasErrorBoundary": false,
+                                  "id": "0-2",
+                                  "path": "",
+                                },
+                                Object {
+                                  "children": undefined,
+                                  "element": <React.Fragment />,
+                                  "hasErrorBoundary": false,
+                                  "id": "0-3",
+                                  "path": "",
+                                },
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "children": Array [
+                                        Object {
+                                          "element": <FullPageError />,
+                                          "hasErrorBoundary": false,
+                                          "id": "0-4-0-0",
+                                          "index": true,
+                                        },
+                                        Object {
+                                          "children": undefined,
+                                          "element": <GenericErrorPage />,
+                                          "hasErrorBoundary": false,
+                                          "id": "0-4-0-1",
+                                          "path": "generic",
+                                        },
+                                      ],
+                                      "hasErrorBoundary": false,
+                                      "id": "0-4-0",
+                                      "path": "error",
+                                    },
+                                    Object {
+                                      "children": undefined,
+                                      "element": <Maintenance
+                                        isPageNotFound={true}
+                                      />,
+                                      "hasErrorBoundary": false,
+                                      "id": "0-4-1",
+                                      "path": "*",
+                                    },
+                                  ],
+                                  "element": <PublicRoute />,
+                                  "hasErrorBoundary": false,
+                                  "id": "0-4",
+                                  "path": "*",
+                                },
+                              ],
+                              "hasErrorBoundary": false,
+                              "id": "0",
+                              "path": "/",
+                            },
+                          },
+                          Object {
+                            "params": Object {},
+                            "pathname": "/",
+                            "pathnameBase": "/",
+                            "route": Object {
+                              "children": undefined,
+                              "element": <React.Fragment />,
+                              "hasErrorBoundary": false,
+                              "id": "0-0",
+                              "path": "",
+                            },
+                          },
+                        ],
+                        "outlet": null,
+                      }
+                    }
+                  >
+                    <React.Fragment />
+                  </RenderedRoute>,
+                }
+              }
+            >
+              <RenderedRoute
+                match={
+                  Object {
+                    "params": Object {},
+                    "pathname": "/",
+                    "pathnameBase": "/",
+                    "route": Object {
+                      "children": undefined,
+                      "element": <React.Fragment />,
+                      "hasErrorBoundary": false,
+                      "id": "0-0",
+                      "path": "",
+                    },
+                  }
+                }
+                routeContext={
+                  Object {
+                    "isDataRoute": true,
+                    "matches": Array [
+                      Object {
+                        "params": Object {},
+                        "pathname": "/",
+                        "pathnameBase": "/",
+                        "route": Object {
+                          "children": Array [
+                            Object {
+                              "children": undefined,
+                              "element": <React.Fragment />,
+                              "hasErrorBoundary": false,
+                              "id": "0-0",
+                              "path": "",
+                            },
+                            Object {
+                              "children": undefined,
+                              "element": <React.Fragment />,
+                              "hasErrorBoundary": false,
+                              "id": "0-1",
+                              "path": "",
+                            },
+                            Object {
+                              "children": undefined,
+                              "element": <React.Fragment />,
+                              "hasErrorBoundary": false,
+                              "id": "0-2",
+                              "path": "",
+                            },
+                            Object {
+                              "children": undefined,
+                              "element": <React.Fragment />,
+                              "hasErrorBoundary": false,
+                              "id": "0-3",
+                              "path": "",
+                            },
+                            Object {
+                              "children": Array [
+                                Object {
+                                  "children": Array [
+                                    Object {
+                                      "element": <FullPageError />,
+                                      "hasErrorBoundary": false,
+                                      "id": "0-4-0-0",
+                                      "index": true,
+                                    },
+                                    Object {
+                                      "children": undefined,
+                                      "element": <GenericErrorPage />,
+                                      "hasErrorBoundary": false,
+                                      "id": "0-4-0-1",
+                                      "path": "generic",
+                                    },
+                                  ],
+                                  "hasErrorBoundary": false,
+                                  "id": "0-4-0",
+                                  "path": "error",
+                                },
+                                Object {
+                                  "children": undefined,
+                                  "element": <Maintenance
+                                    isPageNotFound={true}
+                                  />,
+                                  "hasErrorBoundary": false,
+                                  "id": "0-4-1",
+                                  "path": "*",
+                                },
+                              ],
+                              "element": <PublicRoute />,
+                              "hasErrorBoundary": false,
+                              "id": "0-4",
+                              "path": "*",
+                            },
+                          ],
+                          "hasErrorBoundary": false,
+                          "id": "0",
+                          "path": "/",
+                        },
+                      },
+                      Object {
+                        "params": Object {},
+                        "pathname": "/",
+                        "pathnameBase": "/",
+                        "route": Object {
+                          "children": undefined,
+                          "element": <React.Fragment />,
+                          "hasErrorBoundary": false,
+                          "id": "0-0",
+                          "path": "",
+                        },
+                      },
+                    ],
+                    "outlet": null,
+                  }
+                }
+              />
+            </RenderedRoute>
+          </RenderErrorBoundary>
+        </DataRoutes>
+      </Router>
+    </RouterProvider>
+  </AppRoutes>
+</Provider>
+`;

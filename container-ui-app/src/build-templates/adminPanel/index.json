@@ -1,0 +1,264 @@
+{
+    "baseUrl": "https://api.stage-affinionservices.com/",
+    "locales": {
+        "fallbackLng": "en",
+        "lng": "en",
+        "supportedLngs": [
+            "en"
+        ]
+    },
+    "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCv6Ny9go+A4md9FPI2t6+S9MiVokEEOdVReVhKxJFJG+iErI18rv4kBL9Oar47IoJxfK4Qvsx4O2/y47/AAyAVmVahzF0a/F6zSmV93GtKDmw8iCJmHufyozms5JwE4PmB0vXZy+MABPlirnyPJ6tq2CFoaxlnoZxVPQUSfsVjRQIDAQAB",
+    "regions": [
+        {
+            "timeOuts": {
+                "idleTimeOut": 900000,
+                "snackBarTimeOut": 3000
+            },
+            "apiSchemas": {
+                "addAssets": "sme-asset-bff/asset/v1",
+                "alertsList": "sme-asset-bff/alerts/v1/#member_id#",
+                "decryptPrimaryDetails": "sme-asset-bff/member/v1/decryptPrimaryDetails",
+                "deleteAsset": "sme-asset-bff/asset/v1/#asset_id#",
+                "forgotPassword": "sme-asset-bff/auth/v1/resetPassword",
+                "login": "sme-asset-bff/auth/v1/login",
+                "logout": "sme-asset-bff/auth/v1/logout",
+                "manageAssetList": "sme-asset-bff/asset/v1/#member_id#",
+                "memberActivate": "sme-asset-bff/member/v1/activate/#member_id#",
+                "memberProfile": "sme-asset-bff/member/v1/profile/#member_id#",
+                "memberValidate": "sme-asset-bff/member/v1/validate",
+                "notifications": "sme-asset-bff/member/v1/notifications/#member_id#",
+                "refreshToken": "sme-asset-bff/auth/v1/refreshToken",
+                "resetPassword": "sme-asset-bff/auth/v1/changePassword",
+                "resetPasswordVerify": "sme-asset-bff/auth/v1/verifyPasswordLink",
+                "resolveAlert": "sme-asset-bff/alerts/v1/status",
+                "updateAsset": "sme-asset-bff/asset/v1/#asset_id#",
+                "timeline": "sme-asset-bff/member/v1/timeline/#member_id#",
+                "postEmployee": "sme-asset-bff/employee/v1/#member_id#",
+                "deleteEmployee": "sme-asset-bff/employee/v1/#member_id#",
+                "getEmployees": "sme-asset-bff/employee/v1/#membership_id#"
+            },
+            "REGEX": {
+                "NON_ALPHA_NUMERIC_ONLY": "/[^A-Za-z0-9]/g",
+                "NON_ALPHA_NUMERIC_SPEC_CHAR_ONLY": "/[^A-Za-z0-9\\s!#@$%&/'*+=?^_`{|}~'-]/g",
+                "ALPHA_NUMERIC_ONLY": "/^[A-Za-z0-9]*$/i",
+                "ALPHA_NUMERIC_16_DIG": "/^[A-Z0-9]{16}$/i",
+                "ALPHA_NUMERIC_WITH_LEADING_SPACE": "/^\\s?[A-Za-z0-9]/",
+                "ALPHABETIC_WITHOUT_NUMBER": "/^[a-zA-Z\\W][^0-9]{0,99}$/",
+                "COMPANY_NAME_VALIDATION": "/^[A-Za-z0-9\\s!#@$%&/'*+=?^_`{|}~'-]{1,200}$/",
+                "SPACE_BEFORE_AND_AFTER": "/^(?![\\s]).*[^\\s]$/",
+                "SPACE_AFTER": "/^.*[^\\s]$/",
+                "ONLY_EMPTY_SPACE": "/^ *$/",
+                "AT_LEAST_EIGHT_CHAR_LONG": "/(?=.{8,})/",
+                "POSTAL_CODE": "/^[A-Za-z0-9-\\s]*$/",
+                "AT_LEAST_ONE_LOWERCASE": "/(.*[a-z].*)/",
+                "AT_LEAST_ONE_NUMBER": "/(.*[0-9].*)/",
+                "AT_LEAST_ONE_SPECIAL_CHAR": "/(.*[^A-Za-z0-9 ].*)/",
+                "AT_LEAST_ONE_UPPERCASE": "/(.*[A-Z].*)/",
+                "AVERAGE_PASSWORD": "/((((?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9])(?=.{6,}))(^\\S*$))|(((?=.*[a-z])(?=.*[A-Z])(?=.*[^A-Za-z0-9])(?=.{8,}))(^\\S*$)))/",
+                "EMAIL": "/(^[a-zA-Z0-9]{1}[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]{1,63}@[a-zA-Z0-9-]{1,253}\\.[a-zA-Z0-9-]{2,253}$)|(^[a-zA-Z0-9]{1}[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]{1,63}@[a-zA-Z0-9-]{1,253}\\.[A-z]{2}\\.[A-z]{2}$)/i",
+                "FIRST_DIGIT_IS_0_TO_6": "/^[0-6]+/",
+                "FIRST_DIGIT_IS_0": "/^0+/",
+                "NON_NUMERIC_ONLY": "/\\D/g",
+                "NUMERIC_ONLY": "/\\d/g",
+                "NUMBER_NOT_START_WITH_ZERO": "/^[1-9][0-9]*$/",
+                "PHONE_NUMBER_START_7_TO_9": "/^[7-9][0-9]{9}$/",
+                "STRONG_PASSWORD": "/(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[^A-Za-z0-9])(?=.{8,})(^\\S*$)/",
+                "ACCOUNT_NUMBER": "/^[0-9]{7,8}$/",
+                "PHONE_NUMBER": "/([^+])([^\\d()])([\\s]{1,})/g",
+                "NOT_PHONE_NUMBER": "/[^0-9\\s()+]/g",
+                "DOMAIN": "/^((?!-)[A-Za-z0-9-]{1,63}(?<!-)\\.)+[A-Za-z]{2,6}$/",
+                "NETWORK_IP": "/((^\\s*((([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]))\\s*$)|(^\\s*((([0-9A-Fa-f]{1,4}:){7}([0-9A-Fa-f]{1,4}|:))|(([0-9A-Fa-f]{1,4}:){6}(:[0-9A-Fa-f]{1,4}|((25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)(\\.(25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){5}(((:[0-9A-Fa-f]{1,4}){1,2})|:((25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)(\\.(25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)){3})|:))|(([0-9A-Fa-f]{1,4}:){4}(((:[0-9A-Fa-f]{1,4}){1,3})|((:[0-9A-Fa-f]{1,4})?:((25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)(\\.(25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){3}(((:[0-9A-Fa-f]{1,4}){1,4})|((:[0-9A-Fa-f]{1,4}){0,2}:((25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)(\\.(25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){2}(((:[0-9A-Fa-f]{1,4}){1,5})|((:[0-9A-Fa-f]{1,4}){0,3}:((25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)(\\.(25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)){3}))|:))|(([0-9A-Fa-f]{1,4}:){1}(((:[0-9A-Fa-f]{1,4}){1,6})|((:[0-9A-Fa-f]{1,4}){0,4}:((25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)(\\.(25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)){3}))|:))|(:(((:[0-9A-Fa-f]{1,4}){1,7})|((:[0-9A-Fa-f]{1,4}){0,5}:((25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)(\\.(25[0-5]|2[0-4]\\d|1\\d\\d|[1-9]?\\d)){3}))|:)))(%.+)?\\s*$))/",
+                "CONSECUTIVE_SPECIAL_CHARS": "/([.!#$%&@'*+/=?^_`{|}~-])\\1/"
+            },
+            "storageType": "sessionStorage",
+            "storageKeys": {
+                "member_id": "member_id",
+                "access_token": "access_token",
+                "refresh_token": "refresh_token",
+                "membership_id": "membership_id",
+                "REQUESTING_SHARED_CREDENTIALS": "REQUESTING_SHARED_CREDENTIALS",
+                "CLEAR_CREDENTIALS": "CLEAR_CREDENTIALS",
+                "CREDENTIALS_SHARING": "CREDENTIALS_SHARING"
+            },
+            "timelineActivities": {
+                "ACCOUNT_CREATED": "settings.timeline.activityDetails.account_created",
+                "ACCOUNT_ACTIVATED": "settings.timeline.activityDetails.account_activated",
+                "NOTIFICATION_PREFERENCE_UPDATED": "settings.timeline.activityDetails.notification_updated",
+                "ASSET_ADDED": "settings.timeline.activityDetails.asset_added",
+                "ASSET_UPDATED": "settings.timeline.activityDetails.asset_updated",
+                "ASSET_DELETED": "settings.timeline.activityDetails.asset_deleted",
+                "ALERT_RESOLVED": "settings.timeline.activityDetails.alert_resolved",
+                "EMPLOYEE_INVITED": "settings.timeline.activityDetails.employee_invited",
+                "EMPLOYEE_DELETED": "settings.timeline.activityDetails.employee_deleted"
+            },
+            "contactDetails": {
+                "email": "domain@mail.com",
+                "phone": "+00 (0) 0000000000"
+            },
+            "faqCategories": {
+                "alerts": 5,
+                "assets": 5,
+                "fraud": 6,
+                "passwords": 3,
+                "privacy": 5
+            },
+            "features": {
+                "oneTrust": {
+                    "enable": false,
+                    "id": "",
+                    "locales": {
+                        "en": "en-gb"
+                    },
+                    "url": ""
+                }
+            },
+            "headers": {
+                "x-api-as-key": "7LAPuJqGQApn1lxES6xTqC1sjkxVtfcX",
+                "x-tenant-id": 4000001,
+                "x-visibility-scope-key": "CyberSMEPOC",
+                "Pragma": "no-cache",
+                "Content-Type": "application/json",
+                "Cache-Control": "no-store"
+            },
+            "isMaintenance": false,
+            "isNotranslate": true,
+            "learnMoreContentItems": 4,
+            "meta": {
+                "name": {
+                    "twitter:image:alt": "Cyber-SME"
+                },
+                "property": {
+                    "og:description": "Learn about Cyber Security.",
+                    "og:image": "@region@/resources/images/svg/logo.svg",
+                    "og:image:alt": "Cyber-SME",
+                    "og:site_name": "Cyber SME",
+                    "og:title": "Cyber SME (Small Medium Enterprise)",
+                    "og:type": "website",
+                    "og:url": "@region@"
+                }
+            },
+            "phone": {
+                "defaultCountryCode": "uk",
+                "supportedCountryCodes": [
+                    {
+                        "code": "+39",
+                        "country": "it",
+                        "maxLength": 10,
+                        "minLength": 9,
+                        "name": "Italy",
+                        "regex": "/^[0-9]{9,10}$/"
+                    },
+                    {
+                        "code": "+44",
+                        "country": "uk",
+                        "maxLength": 11,
+                        "minLength": 7,
+                        "name": "UK",
+                        "regex": "/^[0-9]{7,11}$/"
+                    },
+                    {
+                        "code": "+49",
+                        "country": "de",
+                        "maxLength": 13,
+                        "minLength": 7,
+                        "name": "Germany",
+                        "regex": "/^[0-9]{7,13}$/"
+                    },
+                    {
+                        "code": "+34",
+                        "country": "sp",
+                        "maxLength": 11,
+                        "minLength": 9,
+                        "name": "Spain",
+                        "regex": "/^[0-9]{9,11}$/"
+                    },
+                    {
+                        "code": "+46",
+                        "country": "se",
+                        "maxLength": 11,
+                        "minLength": 7,
+                        "name": "Sweden",
+                        "regex": "/^[0-9]{7,11}$/"
+                    },
+                    {
+                        "code": "+358",
+                        "country": "fin",
+                        "maxLength": 10,
+                        "minLength": 8,
+                        "name": "Finland",
+                        "regex": "/^[0-9]{8,10}$/"
+                    },
+                    {
+                        "code": "+47",
+                        "country": "no",
+                        "maxLength": 12,
+                        "minLength": 8,
+                        "name": "Norway",
+                        "regex": "/^[0-9]{8,12}$/"
+                    },
+                    {
+                        "code": "+45",
+                        "country": "dk",
+                        "maxLength": 10,
+                        "minLength": 8,
+                        "name": "Denmark",
+                        "regex": "/^[0-9]{8,10}$/"
+                    },
+                    {
+                        "code": "+33",
+                        "country": "fr",
+                        "maxLength": 10,
+                        "minLength": 10,
+                        "name": "France",
+                        "regex": "/^[0-9]{10}$/"
+                    },
+                    {
+                        "code": "+90",
+                        "country": "tr",
+                        "maxLength": 12,
+                        "minLength": 8,
+                        "name": "Turkey",
+                        "regex": "/^[0-9]{8,12}$/"
+                    }
+                ]
+            },
+            "region": "uk-sme-cyberprotection.stage-affinionservices.com",
+            "supportedRegion": {
+                "basename": "",
+                "hostname": "uk-sme-cyberprotection.stage-affinionservices.com",
+                "matcher": "hostname",
+                "pathname": "/uk/cyber"
+            },
+            "timeline": {
+                "default": {
+                    "duration": "DAYS_30",
+                    "pageIndex": 1,
+                    "pageSize": 50
+                },
+                "durationOptions": [
+                    {
+                        "label": "settings.timeline.filterOptions.last30Days",
+                        "value": "DAYS_30"
+                    },
+                    {
+                        "label": "settings.timeline.filterOptions.last3Months",
+                        "value": "MONTHS_3"
+                    },
+                    {
+                        "label": "settings.timeline.filterOptions.currentYear",
+                        "value": "YEAR_CURRENT"
+                    },
+                    {
+                        "label": "settings.timeline.filterOptions.lastYear1",
+                        "value": "YEAR_LAST1"
+                    },
+                    {
+                        "label": "settings.timeline.filterOptions.lastYear2",
+                        "value": "YEAR_LAST2"
+                    }
+                ]
+            }
+        }
+    ],
+    "urlPattern": "#region#-sme-cyberprotection.#env#-affinionservices.com"
+}

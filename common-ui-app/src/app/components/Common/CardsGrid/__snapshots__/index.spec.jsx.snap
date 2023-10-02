@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CardsGrid Component - Component to be defined test 1`] = `
+<div
+  className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-spacing-xs-1 MuiGrid-direction-xs-row-reverse MuiGrid-grid-xs-true css-o9esbh-MuiGrid-root"
+/>
+`;

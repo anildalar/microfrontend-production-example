@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Renders Component - Component to be defined test 1`] = `
+<form
+  data-testid="SignUpActionForm"
+  onSubmit={[Function]}
+>
+  <h5
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft css-j45ghh-MuiTypography-root"
+    data-testid="signup-action-subHeading2"
+  >
+    registration.accountDetails
+  </h5>
+  <p
+    className="MuiTypography-root MuiTypography-caption MuiTypography-alignLeft css-1l2vc82-MuiTypography-root"
+    data-testid="signup-action-subHeading2"
+  >
+    registration.passwordNote
+  </p>
+  <hr
+    className="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+  />
+  <h5
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft css-c2vuvl-MuiTypography-root"
+    data-testid="signup-action-subHeading2"
+  >
+    registration.personalInformation
+  </h5>
+  <div
+    className="MuiGrid-root MuiGrid-container css-hi54jv-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-urj5pv-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+    />
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-jtuf4s-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-18kb45e-MuiGrid-root"
+<<<<<<< HEAD
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      />
+      <div
+        className="MuiGrid-root MuiGrid-item css-1s76rlx-MuiGrid-root"
+      />
+    </div>
+=======
+    />
+>>>>>>> df0cde2bd5374d0261538f41647042101eefeee9
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-18kb45e-MuiGrid-root"
+    />
+  </div>
+  <hr
+    className="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+  />
+  <hr
+    className="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+  />
+<<<<<<< HEAD
+=======
+  <div
+    className="MuiGrid-root MuiGrid-container css-1oukqxz-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-11l7cpn-MuiGrid-root"
+    >
+      <h5
+        className="MuiTypography-root MuiTypography-h5 MuiTypography-alignLeft css-j45ghh-MuiTypography-root"
+        data-testid="signup-action-subHeading2"
+      >
+        registration.card_heading
+      </h5>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true css-1vd824g-MuiGrid-root"
+    />
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-6 css-1fyyp8j-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-1unik2p-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-md-3 css-1ipvra3-MuiGrid-root"
+    >
+      <div
+        className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      />
+      <div
+        className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+      />
+    </div>
+  </div>
+  <div
+    className="MuiBox-root css-k008qs"
+  />
+  <div
+    className="MuiGrid-root MuiGrid-container css-hi54jv-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-4 css-1lj5egr-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-5 css-urj5pv-MuiGrid-root"
+    />
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-md-3 css-iv7vbz-MuiGrid-root"
+    />
+  </div>
+>>>>>>> df0cde2bd5374d0261538f41647042101eefeee9
+  <hr
+    className="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+  />
+  <div
+    className="MuiBox-root css-1id3s5p"
+  />
+  <div
+    className="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-c06c7r-MuiGrid-root"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <button
+        align="left"
+        aria-label="action_items.back_label"
+        className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+        data-testid="signup-back-action"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="submit"
+      >
+        <span
+          className="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+        />
+        action_items.back_label
+      </button>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+    >
+      <button
+        align="left"
+        aria-label="action_items.submit_label"
+        className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium Mui-disabled MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium css-sghohy-MuiButtonBase-root-MuiButton-root"
+        data-testid="signup-submit-action"
+        disabled={true}
+        onBlur={[Function]}
+        onContextMenu={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={-1}
+        type="submit"
+      >
+        action_items.submit_label
+      </button>
+    </div>
+  </div>
+</form>
+`;

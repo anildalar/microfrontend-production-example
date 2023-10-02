@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- GridWrapper Component - Renders Component - Loading false 1`] = `
+<div
+  className="MuiGrid-root css-1k6xjmh-MuiGrid-root"
+>
+  Test
+</div>
+`;
+
+exports[`- GridWrapper Component - Renders Component - Loading true 1`] = `
+<div
+  className="MuiGrid-root css-1k6xjmh-MuiGrid-root"
+>
+  <span
+    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave css-1etr2k8-MuiSkeleton-root"
+    style={
+      Object {
+        "height": undefined,
+        "width": undefined,
+      }
+    }
+  />
+</div>
+`;

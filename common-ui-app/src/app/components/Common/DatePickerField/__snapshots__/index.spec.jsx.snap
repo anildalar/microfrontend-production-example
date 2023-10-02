@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- DatePickerField Component - Renders Component - snapshot test 1`] = `
+<LocalizationProvider
+  dateAdapter={[Function]}
+>
+  <ForwardRef(DatePicker)
+    meta={
+      Object {
+        "error": false,
+        "invaild": false,
+        "touched": false,
+      }
+    }
+    onChange={[Function]}
+    slotProps={
+      Object {
+        "textField": Object {
+          "meta": Object {
+            "error": false,
+            "invaild": false,
+            "touched": false,
+          },
+          "onBlur": [Function],
+          "textFieldFocused": false,
+        },
+      }
+    }
+    slots={
+      Object {
+        "textField": [Function],
+      }
+    }
+  />
+</LocalizationProvider>
+`;
+
+exports[`- DatePickerField Component - Renders Component - snapshot test for invalid data 1`] = `
+<LocalizationProvider
+  dateAdapter={[Function]}
+>
+  <ForwardRef(DatePicker)
+    meta={
+      Object {
+        "error": false,
+        "invaild": true,
+        "touched": true,
+      }
+    }
+    onChange={[Function]}
+    slotProps={
+      Object {
+        "textField": Object {
+          "meta": Object {
+            "error": false,
+            "invaild": true,
+            "touched": true,
+          },
+          "onBlur": [Function],
+          "textFieldFocused": false,
+        },
+      }
+    }
+    slots={
+      Object {
+        "textField": [Function],
+      }
+    }
+  />
+</LocalizationProvider>
+`;
+
+exports[`- DatePickerField Component - Renders Component - snapshot test for successfull validation 1`] = `
+<LocalizationProvider
+  dateAdapter={[Function]}
+>
+  <ForwardRef(DatePicker)
+    meta={
+      Object {
+        "error": false,
+        "invaild": false,
+        "touched": true,
+      }
+    }
+    onChange={[Function]}
+    slotProps={
+      Object {
+        "textField": Object {
+          "meta": Object {
+            "error": false,
+            "invaild": false,
+            "touched": true,
+          },
+          "onBlur": [Function],
+          "textFieldFocused": false,
+        },
+      }
+    }
+    slots={
+      Object {
+        "textField": [Function],
+      }
+    }
+  />
+</LocalizationProvider>
+`;

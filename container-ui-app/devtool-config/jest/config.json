@@ -1,0 +1,55 @@
+{
+  "clearMocks": true,
+  "collectCoverage": true,
+  "collectCoverageFrom": [
+    "src/app/**/*.{js,jsx}",
+    "!src/app/**/*types.js",
+    "!src/app/**/*styles.js",
+    "!src/app/**/*styled.js",
+    "!src/app/styles/**",
+    "!src/app/constants/**",
+    "src/app/constants/default/**",
+    "src/app/constants/js/**"
+  ],
+  "coverageDirectory": "<rootDir>/reports/#client_id#/coverage/jest/",
+  "coveragePathIgnorePatterns": ["/node_modules/"],
+  "coverageReporters": ["json", "html", "lcov", "text"],
+  "coverageThreshold": {
+    "global": {
+      "statements": 80,
+      "branches": 80,
+      "functions": 80,
+      "lines": 80
+    }
+  },
+  "moduleNameMapper": {
+    "\\.(jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga|ico)$": "<rootDir>/devtool-config/jest/mocks/fileMock.js",
+    "\\.(svg)$": "<rootDir>/devtool-config/jest/mocks/fileMockSVG.js",
+    "\\.(css|less)$": "<rootDir>/devtool-config/jest/mocks/fileMock.js",
+    "snapsvg": "<rootDir>/devtool-config/jest/mocks/snapSvgMock.js",
+    "axios": "axios/dist/node/axios.cjs"
+  },
+  "rootDir": "../../",
+  "setupFiles": [
+    "<rootDir>/devtool-config/jest/enzymeAdapter.js",
+    "<rootDir>/devtool-config/jest/setEnvVars.js"
+  ],
+  "setupFilesAfterEnv": ["raf/polyfill"],
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "reporters": [
+    "default",
+    [
+      "jest-html-reporters",
+      {
+        "publicPath": "./html-report",
+        "filename": "report.html",
+        "openReport": true
+      }
+    ]
+  ],
+  "transformIgnorePatterns": ["node_modules/(?!(@/*)/)"],
+  "verbose": true,
+  "testEnvironment": "jsdom",
+  "modulePaths": ["<rootDir>/src"],
+  "moduleDirectories": ["node_modules", "tenerity-ui-toolkit"]
+}

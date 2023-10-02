@@ -1,0 +1,6 @@
+{
+  "clientId": "#client_id#",
+  "configStoreUrl": "https://api.#client_env#.affinionservices.com/protection-orchestrator/api/frontend/v1/configs?client-name=#client_id#&env=#client_env#",
+  "env": "#client_env#",
+  "downloadFromUrl": true
+}

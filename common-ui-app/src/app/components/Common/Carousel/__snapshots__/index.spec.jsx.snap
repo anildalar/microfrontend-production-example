@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- Carousel Component - Renders Component - Component to be defined test 1`] = `
+<div
+  className="MuiBox-root css-0"
+>
+  <div
+    className="slick-slider slick-initialized"
+  >
+    
+    <div
+      className="slick-list"
+    >
+      <div
+        className="slick-track"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        onMouseOver={[Function]}
+        style={
+          Object {
+            "WebkitTransform": "translate3d(0px, 0px, 0px)",
+            "WebkitTransition": "",
+            "msTransform": "translateX(0px)",
+            "opacity": 1,
+            "transform": "translate3d(0px, 0px, 0px)",
+            "transition": "",
+          }
+        }
+      />
+    </div>
+    
+    
+  </div>
+</div>
+`;

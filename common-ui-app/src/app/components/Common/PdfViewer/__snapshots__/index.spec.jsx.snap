@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`- PdfViewer Component - Mounting - snapshot Desktop View 1`] = `
+<div
+  className="MuiBox-root css-1xdhyk6"
+  data-testid="pdf-viewer"
+>
+  <div />
+</div>
+`;
+
+exports[`- PdfViewer Component - Mounting - snapshot test 1`] = `
+<div
+  className="MuiBox-root css-1xdhyk6"
+  data-testid="pdf-viewer"
+>
+  <div />
+</div>
+`;
