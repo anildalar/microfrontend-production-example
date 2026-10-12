@@ -3,11 +3,10 @@ A Protection (Business Enterprise) app using React UI
 
 ## Confluence Docs / Architecture / Design Pattern / Standards
 
-* https://confluence.tenerity.com/display/CS/SME+UI+Architecture?src=contextnavpagetreemode
 
 ## Zeplin UX Designs
 
-* https://app.zeplin.io/project/61dbff79f47fda152105cf81
+* https://app.zeplin.io/project/
 
 ## Table of Contents
 
@@ -38,13 +37,13 @@ A Protection (Business Enterprise) app using React UI
 <a name="who-do-i-talk-to?"></a>
 ## Who do I talk to? ###
 
-* UI -> KARAN KHILWANI | SUNIL SALVE | VAIBHAV BOTRE | SOURAV GHOSH
-* UX (Zeplin) -> ALLAMA GURUMURTHY
-* QA -> PRIYA LAHOTI | AKSHAY SAGARE
-* BACKEND -> VIDHYA BHARAMBE | TUSHAR KADALE
-* DEVOPS -> Hiren Thakar | Mohseen Pathan
-* BA/JE -> MEHUL GUPTA
-* Scrum Master -> CHAITANYA PATIL
+* UI -> 
+* UX (Zeplin) -> 
+* QA -> 
+* BACKEND -> 
+* DEVOPS -> 
+* BA/JE -> 
+* Scrum Master -> 
 
 <a name="scripts"></a>
 ## Scripts
