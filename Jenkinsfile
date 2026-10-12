@@ -177,11 +177,10 @@ def deployToOriginServer() {
                         }
                     }
         def awsAccountId = [
-            "dev": "006378141167",
-            "qa": "234218843518",
-            "qa2": "234218843518",
-            "stage": "215135100958",
-            "prod": "212762427968"
+            "dev": "111111111",
+            "qa": "222222222",
+            "stage": "333333333",
+            "prod": "444444444"
         ]
          withAWS(role: 'ng-gce-deployment-role', roleAccount: "${awsAccountId[env.TIER]}", roleSessionName: "cyberng-${env.TIER}-ui-deployment-session") {
             sh "aws s3 cp '${env.COMMIT_ID}' s3://${S3_BUCKET_NAME}/ --sse AES256 --recursive"
@@ -192,10 +191,10 @@ def deployToOriginServer() {
 def invalidateCDN(id) {
     script {
         def awsAccountId = [
-            "dev": "006378141167",
-            "qa": "234218843518",
-            "stage": "215135100958",
-            "prod": "212762427968"
+            "dev": "111111111",
+            "qa": "222222222",
+            "stage": "333333333",
+            "prod": "444444444"
         ]
         withAWS(role: 'ng-gce-deployment-role', roleAccount: "${awsAccountId[env.TIER]}", roleSessionName: "cyberng-${env.TIER}-cdn-invalidation-session") {
             INVAL_ID = sh(script: "aws cloudfront create-invalidation --distribution-id ${id} --paths '/*' --region ${env.AWS_REGION} | jq -r '.Invalidation.Id'", returnStdout: true).trim()
